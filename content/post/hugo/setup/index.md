@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Setup"
+title: "Hugo + Academic + Netlifyでブログを構築"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
-categories: []
+tags: ["Hugo", "Netlify"]
+categories: ["Web"]
 date: 2020-04-21T00:44:44+09:00
 lastmod: 2020-04-21T00:44:44+09:00
 featured: false
