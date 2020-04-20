@@ -131,6 +131,28 @@ title: Test
 ![update_author](update_author.png)
 
 
+## 独自ドメインの設定
 
+自分はGoogle Domainsで取得していた。  
+
+[ここ](https://qiita.com/NaokiIshimura/items/64e060ccc244e38d0c15)を参考にして独自ドメインをNetlifyに登録。
+
+Google DomainsだとALIAS, ANAMEレコードが使えないので、Netlify側でDNS設定をした。  
+[ここ](https://www.ravness.com/2018/07/netlifydomain/)参照。  
+また、NetlifyのDNSを使うとCDNの恩恵を得られるとか。
+
+Google Domainsで以下を実施。
+
+1. DNSSECを無効化。
+2. 「ネームサーバー」で「カスタムネームサーバーを使用する」に変更し、  
+  Netlifyの「Check DNS configuration」を押すと出てくるDNSサーバを追加。  
+```
+dns1.p02.nsone.net
+dns2.p02.nsone.net
+dns3.p02.nsone.net
+dns4.p02.nsone.net
+```
+3. ドメインが浸透し、HTTPS化まで完了したことがNetlify画面から確認できたら  
+  独自ドメインでアクセスできるようになるはず。（自分の場合は大体10〜20分でできた）
 
 
