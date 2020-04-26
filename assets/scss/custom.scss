@@ -1,0 +1,60 @@
+// Override this file to add your own SCSS styling.
+.article-container {
+  max-width: 1200px;
+  padding: 0 10% 0 10%;
+  margin: 0 auto 0 auto;
+}
+
+/* 画面サイズが480以下（スマホ）のときに適応されるCSS */
+/* 変更点だけを書けばおk　！！ */
+@media screen and (max-width:480px) { 
+    .article-container{
+      padding: 0 5% 0 5%;
+    }
+}
+
+.article-style {
+  h1, h2, h3 {
+    padding: .25em 0 .25em .5em;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 2em;
+    border-left: 4px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2em;
+    border-bottom: 1px solid #ccc;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1.5em;
+  }
+
+  p, pre {
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  pre {
+    font-size: .9em;
+  }
+
+}
+
+.dark {
+  .list-group-item{
+    background: #343a40;
+    border: solid 0.5px white;
+  }
+}
