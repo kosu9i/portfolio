@@ -164,7 +164,7 @@ AWSの知人にもちょっと聞きつつ、次回以降にまた深堀りし�
 * Shareの機能が見当たらない。
 * ExperimentsってStudio上ではビルトインのアルゴリズムしか選択できない？  
   自前のモデルを走行したいときはSDKからやる必要あり？  
-  ![Create Experiment](create_experiment.png)
+  {{< figure src="create_experiment.png" title="Create Experiment" numbered="true" lightbox="true" >}}
 * Autopilotのコードダウンロードもどこでやるのか分からない
     - 左部メニューの `Experiments` => Experimentを右クリック => `Describe AutoML Job`  
       => `Open candidate generation notebook` で見れてるやつ？  

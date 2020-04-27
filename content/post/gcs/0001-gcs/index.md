@@ -30,7 +30,7 @@ projects: []
 
 # ストレージクラス
 
-![GCS価格表](gcp-storage-pricing.png)
+{{< figure src="gcp-storage-pricing.png" title="GCS料金表" numbered="true" lightbox="true" >}}
 
 GCSでは「地理的冗長性」と「アクセス頻度」の2軸でストレージクラスを決定する。  
 表を見ると分かりやすい体系になっている（個人的感想）

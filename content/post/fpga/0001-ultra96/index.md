@@ -103,14 +103,14 @@ WiFi接続を試してみる。（Ultra96がWiFiのアクセスポイントに�
 
 1. ブラウザで `192.168.2.1` に接続。
 2. `Ultra96-V2 GPIO LEDs` へ。
-   ![001](001.png)
+   {{< figure src="001.png" title="Ultra96-V2 GPIO LEDs" numbered="true" lightbox="true" >}}
 3. LEDのプルダウンを選択するとLチカできる。
 
 どこがLチカなっているか分かりづらいが、下記の赤線枠部分がそれにあたる。
 
 画像は `LED0/D3` と `LED1/D4`をOnにしている。
 
-![002](002.jpg)
+{{< figure src="002.jpg" title="LED" numbered="true" lightbox="true" >}}
 
 
 

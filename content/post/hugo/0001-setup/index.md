@@ -81,26 +81,25 @@ Netlifyを使うとAcademicのデプロイが超絶楽ちん。
 1. [NetlifyにAcademicをデプロイするページ](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)へ移動して「Connect to GutHub」をクリック。
   GitHubでの認証を承認する。
 
-  ![connect_github](connect_github.png)
+  {{< figure src="connect_github.png" title="Connect to GitHub" numbered="true" lightbox="true" >}}
 
 2. 「Repository name」にGitHubに登録したいリポジトリ名を入力。  
   ここで入力した名前で新規リポジトリが作成され、[academic-kickstart](https://github.com/sourcethemes/academic-kickstart)がforkされる様子。  
   さらに勝手にNetlifyと連携してくれる。（細かいところが気になるが、先に進む）  
   自分は `portfolio` というリポジトリ名にした。
 
-  ![repo_name](repo_name.png)
+  {{< figure src="repo_name.png" title="Repository name" numbered="true" lightbox="true" >}}
 
 3. 下記のようになったら、もうAcademicのデフォルト状態でデプロイされている。  
   黒く塗りつぶしている箇所にリンクがあり、そこからアクセスできるはず。
 
-  ![overview](overview.png)
+  {{< figure src="overview.png" title="Overview" numbered="true" lightbox="true" >}}
 
 
 
 リンクをクリックして、下記が閲覧できればOK。楽すぎる。
 
-![academic_start_page](academic_start_page.png)
-
+{{< figure src="academic_start_page.png" title="Academic Start Page" numbered="true" lightbox="true" >}}
 
 
 ## Academic内のコンテンツを編集
@@ -128,7 +127,7 @@ title: Test
 この変更をGitHubのmasterにpushし、しばらく経つとNetlifyに自動で反映される。  
 楽すぎる...
 
-![update_author](update_author.png)
+{{< figure src="update_author.png" title="Update Author" numbered="true" lightbox="true" >}}
 
 
 ## 独自ドメインの設定
