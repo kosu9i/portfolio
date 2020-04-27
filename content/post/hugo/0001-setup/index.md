@@ -155,3 +155,27 @@ dns4.p02.nsone.net
   独自ドメインでアクセスできるようになるはず。（自分の場合は大体10〜20分でできた）
 
 
+# Academicのリポジトリを変更する（optional）
+
+上記のやり方をすると、`themes`ディレクトリ配下に[Academic本家のリポジトリ](https://github.com/gcushen/hugo-academic)が  
+submoduleで追加される。
+
+テーマのカスタマイズを自分でしなければそのままで良いのだが、  
+自分なりにテーマ部分を修正して、それもGitHubで管理したい場合は  
+参照先が本家リポジトリだとpushできない。  
+自分でカスタマイズ + 管理したい場合は以下の手順で自分のGitHubで管理するようにする。
+
+1. [Academic本家のリポジトリ](https://github.com/gcushen/hugo-academic)を自分のGitHubにforkする。
+2. `.gitmodules` を修正。
+   ```
+   [submodule "themes/academic"]
+       path = themes/academic
+       url = https://github.com/<自分のGitHubユーザ名>/hugo-academic.git
+   ```
+3. themes/academic/`ディレクトリを削除。`
+4. `$ git submodule update --init --recursive` を実行。
+5. 以下を実行。
+   ```bash
+   $ cd themes/academic/
+   $ git remote set-url origin git@github.com:<自分のGitHubユーザ名>/hugo-academic.git
+   ```
