@@ -179,3 +179,28 @@ submoduleで追加される。
    $ cd themes/academic/
    $ git remote set-url origin git@github.com:<自分のGitHubユーザ名>/hugo-academic.git
    ```
+
+submoduleを変更した場合は以下で更新。（[ここ](https://qiita.com/masarufuruya/items/9938c46fe75dac40f798)を参照）
+
+サブモジュール内をpush。
+
+```bash
+$ cd themes/academic/
+$ git commit -m 'ログ'
+$ git push origin HEAD
+```
+
+本体リポジトリの参照先をpush。
+
+```bash
+git add themes/academic/
+git commit -m 'ログ'
+git push origin HEAD
+```
+
+最新のサブモジュールのcommit IDが参照されているか確認。
+
+```bash
+$ git submodule status
+ 4e8938ca66b18e4c789354dd37280c720e611fce themes/academic (v4.0.0-381-g4e8938c) # <= ここが最新のcommit IDになっていればOK
+```
