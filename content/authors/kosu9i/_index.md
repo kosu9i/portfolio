@@ -39,4 +39,4 @@ social:
 いわゆるデータサイエンティストがたくさんいる会社で  
 いわゆる普通のソフトウェアエンジニアをやっています。
 
-[Podcast](https://anchor.fm/hiroaki-kato)やってます。よかったら聴いてください。
+[Podcast](https://anchor.fm/mukiudo)やってます。よかったら聴いてください。
