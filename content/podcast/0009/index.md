@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【GCP】Google Cloud Storage（GCS）"
+title: "【GCP】GCEを使ったリモートデスクトップ環境 + GCPの無料枠について"
 event:
 event_url:
 location:
@@ -11,17 +11,17 @@ address:
   region:
   postcode:
   country:
-summary: "小杉が今更ヒトに聞けない系のGCSの話をしたよ"
-abstract: "小杉が今更ヒトに聞けない系のGCSの話をしたよ"
+summary: "小杉がUbuntu Desktop環境が欲しかったのでGCEに構築した話と、それに関連したGCPの無料枠について少し話したよ"
+abstract: "小杉がUbuntu Desktop環境が欲しかったのでGCEに構築した話と、それに関連したGCPの無料枠について少し話したよ"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2019-12-31T01:10:00+09:00
-#date_end: 2020-04-28T03:07:09+09:00
+date: 2020-02-25T00:21:00+09:00
+#date_end: 2020-04-28T13:16:02+09:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-04-28T03:07:09+09:00
+publishDate: 2020-04-28T13:16:02+09:00
 
 authors: []
 tags: []
@@ -66,4 +66,4 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPGoogle-Cloud-StorageGCS-e9tiga" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPGCE--GCP-eb1mfl" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

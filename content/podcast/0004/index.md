@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【GCP】Google Cloud Storage（GCS）"
+title: "【AWS】SageMaker 2019年末のupdate"
 event:
 event_url:
 location:
@@ -11,17 +11,17 @@ address:
   region:
   postcode:
   country:
-summary: "小杉が今更ヒトに聞けない系のGCSの話をしたよ"
-abstract: "小杉が今更ヒトに聞けない系のGCSの話をしたよ"
+summary: "小杉がAWS SageMakerのre:Invent 2019で発表された新機能について概要を話したよ"
+abstract: "小杉がAWS SageMakerのre:Invent 2019で発表された新機能について概要を話したよ"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2019-12-31T01:10:00+09:00
-#date_end: 2020-04-28T03:07:09+09:00
+date: 2020-01-16T01:16:00+09:00
+#date_end: 2020-04-28T13:15:34+09:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-04-28T03:07:09+09:00
+publishDate: 2020-04-28T13:15:34+09:00
 
 authors: []
 tags: []
@@ -66,4 +66,4 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPGoogle-Cloud-StorageGCS-e9tiga" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSSageMaker-2019update-ea6p9b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
