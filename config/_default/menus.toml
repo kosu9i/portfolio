@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Podcast"
-  url = "#talks"
+  url = "#podcast"
   weight = 40
 
 #[[main]]
