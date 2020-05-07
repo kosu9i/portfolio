@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【GCP】AI Platform + ちょっとだけAWS SageMaker"
+title: "#3 【GCP】AI Platform + ちょっとだけAWS SageMaker"
 event:
 event_url:
 location:

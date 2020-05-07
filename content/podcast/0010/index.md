@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【雑談回】リモートワーク"
+title: "#10 【雑談回】リモートワーク"
 event:
 event_url:
 location:

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【AWS】Amazon Lightsail"
+title: "#5 【AWS】Amazon Lightsail"
 event:
 event_url:
 location:

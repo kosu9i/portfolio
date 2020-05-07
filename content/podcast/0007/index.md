@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【AWS+GCP】クラウドでの機械学習Trainingジョブ"
+title: "#7 【AWS+GCP】クラウドでの機械学習Trainingジョブ"
 event:
 event_url:
 location:

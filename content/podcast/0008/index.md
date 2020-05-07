@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【AWS+GCP】前回の続き + クラウドでの機械学習Predict API"
+title: "#8 【AWS+GCP】前回の続き + クラウドでの機械学習Predict API"
 event:
 event_url:
 location:
