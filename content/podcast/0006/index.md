@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【AWS】Amazon API Gatewayの認証"
+title: "#6 【AWS】Amazon API Gatewayの認証"
 event:
 event_url:
 location:

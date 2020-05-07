@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#5 【AWS】Amazon Lightsail"
+title: "#10 【雑談回】リモートワーク"
 event:
 event_url:
 location:
@@ -11,17 +11,17 @@ address:
   region:
   postcode:
   country:
-summary: "加藤が楽ちんVPSなサービスAmazon Lightsailについて話したよ"
-abstract: "加藤が楽ちんVPSなサービスAmazon Lightsailについて話したよ"
+summary: "加藤がリモートワークについて話したよ。<br/>2ヶ月ぶりの収録でぐだぐだだよ。時間が惜しい人は聴かない方がいいよ。"
+abstract: "加藤がリモートワークについて話したよ。<br/>2ヶ月ぶりの収録でぐだぐだだよ。時間が惜しい人は聴かない方がいいよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-01-26T01:23:00+09:00
-#date_end: 2020-04-28T13:15:36+09:00
+date: 2020-05-03T00:37:07+09:00
+#date_end: 2020-05-03T00:46:07+09:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-04-28T13:15:36+09:00
+publishDate: 2020-05-03T00:46:07+09:00
 
 authors: []
 tags: []
@@ -66,4 +66,4 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSAmazon-Lightsail-eads69" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/ep-edhdr7" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

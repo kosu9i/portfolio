@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【GCP】GCEを使ったリモートデスクトップ環境 + GCPの無料枠について"
+title: "#9 【GCP】GCEを使ったリモートデスクトップ環境 + GCPの無料枠について"
 event:
 event_url:
 location:

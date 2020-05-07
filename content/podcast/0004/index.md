@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【AWS】SageMaker 2019年末のupdate"
+title: "#4 【AWS】SageMaker 2019年末のupdate"
 event:
 event_url:
 location:

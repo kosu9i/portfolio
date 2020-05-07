@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "【GCP】Google Cloud Storage（GCS）"
+title: "#2 【GCP】Google Cloud Storage（GCS）"
 event:
 event_url:
 location:
