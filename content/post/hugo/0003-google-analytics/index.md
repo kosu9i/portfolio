@@ -74,6 +74,17 @@ GoogleアカウントがあればOK。
 あとはNetlifyにデプロイするだけ。
 
 
+## 確認
+
+うまく設定できているかは、GAの「管理」=>「トラッキング情報」=>「トラッキング コード」=>「テストトラフィックを送信」で確認できる。
+
+{{< figure src="ga_admin.png" title="管理画面" numbered="true" lightbox="true" >}}
+
+「テストトラフィックを送信」してしばらく待つと、`現在のアクティブ ユーザー数です（テスト トラフィックからの n 人を含む）`という表示がされるはず。ここの`n`が1以上になっていればテストOKでちゃんと設定できていると分かる。
+
+{{< figure src="ga_test_traffic.png" title="テストトラフィックを送信" numbered="true" lightbox="true" >}}
+
+
 ## 補足
 
 Hugo serverをlocalで立ち上げても、GAの反映はされていない（HTMLファイルに`gtag`のJavaScriptが埋め込まれない）と思う。  
@@ -82,6 +93,5 @@ Hugo serverをlocalで立ち上げても、GAの反映はされていない（HT
 `HUGO_ENV = "production"`は`netlify.toml`で定義されているので、NetlifyにデプロイしたときだけGAのコードが有効化されるというわけだった。
 
 参考：[Google Analytics seems not working #1368](https://github.com/gcushen/hugo-academic/issues/1368)
-
 
 
