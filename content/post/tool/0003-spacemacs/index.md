@@ -151,3 +151,7 @@ dotspacemacs-configuration-layers
 
 Spacemacsを再起動するとorg-layerに必要なものがインストールされるので待つ。
 
+これで適当に`*.org`という拡張子のファイルを開くとorg-layerが有効になる。  
+
+と、導入できたっぽいのは良いが、org-modeの使い方が分からず、それはまた次回...
+
