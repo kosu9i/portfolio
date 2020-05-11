@@ -74,3 +74,14 @@ GoogleアカウントがあればOK。
 あとはNetlifyにデプロイするだけ。
 
 
+## 補足
+
+Hugo serverをlocalで立ち上げても、GAの反映はされていない（HTMLファイルに`gtag`のJavaScriptが埋め込まれない）と思う。  
+これはAcademicが `HUGO_ENV = "production"` である場合のみ、GAを有効化するようになっているから。（確かにその方が良い）
+
+`HUGO_ENV = "production"`は`netlify.toml`で定義されているので、NetlifyにデプロイしたときだけGAのコードが有効化されるというわけだった。
+
+参考：[Google Analytics seems not working #1368](https://github.com/gcushen/hugo-academic/issues/1368)
+
+
+
