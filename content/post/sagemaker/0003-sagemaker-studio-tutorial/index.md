@@ -105,7 +105,7 @@ Experiment名は使用しているSageMaker Studio内でユニークである必
 
 次に`Trial`を作成。  
 同じく`trial_name`で指定した文字列でTrial名になる。  
-ここでは`algorithm-mode-trial-YYYY-mm-dd-HH-MM-SS`になっている。
+ここでは`algorithm-mode-trial-YYYY-mm-dd-HH-MM-SS`になっている。  
 Trial名も使用しているSageMaker Studio内でユニークである必要がある。
 
 ```python
@@ -226,6 +226,8 @@ for weight in min_child_weights:
 2. `Trial Component List`というタブ内で、同じく複数のTrialを選択して`ADD CHART`
 3. `Trial Component Chart`というタブ内で、同じく複数のTrialを選択して`ADD CHART`
 4. 右に出てくる`CHART PROPERTIES`で可視化の内容を選択
+
+下図は[チュートリアル内のgif](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/aws_sagemaker_studio/getting_started/images/create_a_scatter_plot.gif)を引用。
 
 ![See some Trial](./create_a_scatter_plot.gif)
 
