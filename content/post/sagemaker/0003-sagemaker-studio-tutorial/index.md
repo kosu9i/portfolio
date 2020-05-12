@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "SageMaker Studio（チュートリアル編）"
+title: "SageMaker Studio（チュートリアル Experiments編）"
 subtitle: ""
 summary: ""
 authors: []
@@ -52,11 +52,13 @@ SageMaker Studioは要は「notebook」（実態はカスタマイズされたJu
 ここでは個人的な補足事項を記載していく。
 
 
+
 # チュートリアルの内容
 
 チュートリアルは[ここのjupyter notebook](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/aws_sagemaker_studio/getting_started/xgboost_customer_churn_studio.ipynb)にまとめられている。
 
-以降はこのnotebookから気になるところを抜粋する。
+以降はこのnotebookから気になるところを抜粋する。  
+（チュートリアルでは、DebuggerやModel Monitorなど新機能が一通り揃っているが、本記事ではExperimentsまで）
 
 
 ## ExperimentとTrial
