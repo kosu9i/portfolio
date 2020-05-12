@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "SageMaker Studioをちょっと使ってみる"
+title: "SageMaker Studio（準備編）"
 subtitle: ""
 summary: ""
 authors: []
@@ -32,7 +32,7 @@ projects: []
 
 * 2019年末に公開されたSageMakerの新機能。
 * 要はマネージドなJupyter Lab。
-* 同じく2019年末に発表された新しい機能もたくさん使える。
+* 同じく2019年末に発表された新しい機能（Experiments, Autopilotなど）もJupyter Lab上で使える。
 * 使えるリージョンは現在限定されているらしい。（下記、developer guideから抜粋）
   + 米国東部 (オハイオ)、us-east-2
   + 米国東部 (バージニア北部)、us-east-1
@@ -101,15 +101,59 @@ notebookはEDAなどの作業で使うのが良かろうと思われる。
 
 ## データの準備
 
-SageMakerで利用するデータはS3に
+SageMakerで利用するデータはS3に置くのが基本。  
+最初に指定したIAMロールであればS3のバケット作成や、`[Ss]age[Mm]aker`という名のバケット配下にあるオブジェクトのGet, Put, Deletなどが可能。
+下記、`arn:aws:iam::aws:policy/AmazonSageMakerFullAccess`に付与されているポリシーの一部。
 
+```json
+...略...
+{
+    "Effect": "Allow",
+    "Action": [
+        "s3:GetObject",
+        "s3:PutObject",
+        "s3:DeleteObject",
+        "s3:AbortMultipartUpload"
+    ],
+    "Resource": [
+        "arn:aws:s3:::*SageMaker*",
+        "arn:aws:s3:::*Sagemaker*",
+        "arn:aws:s3:::*sagemaker*",
+        "arn:aws:s3:::*aws-glue*"
+    ]
+},
+{
+    "Effect": "Allow",
+    "Action": [
+        "s3:GetObject"
+    ],
+    "Resource": "*",
+    "Condition": {
+        "StringEqualsIgnoreCase": {
+            "s3:ExistingObjectTag/SageMaker": "true"
+        }
+    }
+},
+{
+    "Effect": "Allow",
+    "Action": [
+        "s3:CreateBucket",
+        "s3:GetBucketLocation",
+        "s3:ListBucket",
+        "s3:ListAllMyBuckets",
+        "s3:GetBucketCors",
+        "s3:PutBucketCors"
+    ],
+    "Resource": "*"
+},
+...略...
+```
 
 
 ## シャットダウン
 
-notebookのタブを閉じてもシャットダウンされない...？
+notebookのタブを閉じてもシャットダウンされない...？（**未確認**）
 
-[kernel自体のシャットダウン](https://docs.aws.amazon.com/ja_jp/sagemaker/latest/dg/notebooks-run-and-manage-shut-down.html)を別途行う必要があるとすれば、結構不親切なのでは...
-
-
+[kernel自体のシャットダウン](https://docs.aws.amazon.com/ja_jp/sagemaker/latest/dg/notebooks-run-and-manage-shut-down.html)を別途行う必要があるとすれば、結構不親切なのでは...  
+未シャットダウンのインスタンスで料金が発生してしまうと嫌だな。
 
