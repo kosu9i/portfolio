@@ -44,6 +44,8 @@ projects: []
 
 # SageMaker Studioをオンボード
 
+[この辺](https://docs.aws.amazon.com/ja_jp/sagemaker/latest/dg/gs-studio-onboard.html)を参考にしてやっていく。
+
 Studioを使える状態にすることを「オンボードする」と呼んでるっぽい。
 
 1. `Amazon SageMaker Studio` のボタンを押下。
