@@ -16,7 +16,7 @@ abstract: "英語力底辺レベルな小杉が最近始めたオンライン英
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-05-14T01:10:40+09:00
+date: 2020-05-17T01:01:00+09:00
 #date_end: 2020-05-14T01:10:40+09:00
 all_day: false
 
