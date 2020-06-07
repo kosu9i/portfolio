@@ -16,7 +16,7 @@ abstract: "小杉がAWS Well-Architectedについて話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-06-06T16:43:02+09:00
+date: 2020-06-08T00:39:00+09:00
 #date_end: 2020-06-06T16:43:02+09:00
 all_day: false
 
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSWell-Architected-ef3v8t" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # 話したこと
 
