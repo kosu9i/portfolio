@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#13 【AWS】CDK vs SAM vs CFn vs マネジメントコンソール"
+title: "#15 【AWS】サービス間を疎結合にするためのSQS導入"
 event:
 event_url:
 location:
@@ -11,17 +11,17 @@ address:
   region:
   postcode:
   country:
-summary: "加藤がAWSのインフラ構築系機能（CDK, SAM, CFn, AMC）について話したよ。"
-abstract: "加藤がAWSのインフラ構築系機能（CDK, SAM, CFn, AMC）について話したよ。"
+summary: "加藤がサービス間を疎結合に構築するためにSQSを利用することについて話したよ。"
+abstract: "加藤がサービス間を疎結合に構築するためにSQSを利用することについて話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-05-24T00:43:03+09:00
-#date_end: 2020-05-24T00:43:03+09:00
+date: 2020-06-15T00:55:00+09:00
+#date_end: 2020-06-15T00:45:45+09:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-05-24T00:43:03+09:00
+publishDate: 2020-06-15T00:45:45+09:00
 
 authors: []
 tags: []
@@ -67,4 +67,4 @@ slides: ""
 projects: []
 ---
 
-<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSCDK-vs-SAM-vs-CFn-vs-eef813" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSSQS-efdiiq" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
