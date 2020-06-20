@@ -16,7 +16,7 @@ abstract: "小杉がk8s上で動く機械学習ワークフロー開発ツール
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-06-20T17:28:19+09:00
+date: 2020-06-21T00:48:00+09:00
 #date_end: 2020-06-20T17:28:19+09:00
 all_day: false
 
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPKubeflow-efmh8l" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # 話したこと
 
@@ -193,3 +195,12 @@ KubeflowはGCPのGKEをはじめ、EKS, AKS, オンプレミスで同じよう�
   + 英語
 
 英語だけど分かりやすいし、[公式ドキュメント](https://www.kubeflow.org/docs/)は必ず見るべし。
+
+
+# おまけで話したこと
+
+* [Google Cloud Day: Digital Archives](https://cloudonair.withgoogle.com/events/google-cloud-day-digital)
+  + 2020/6月末までアーカイブ公開
+* [Qwiklabsの1ヶ月無料キャンペーンページ](https://inthecloud.withgoogle.com/training-discount-jp-q2-20/register.html)
+  + 2020/7月末まで申し込み可能
+
