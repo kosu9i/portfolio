@@ -80,6 +80,7 @@ Kubeflowの**超概要**
 * Googleが筆頭で開発。
 * Apache 2.0 License
 * 2020/3月にv1.0がリリースされた。
+* 読み方は「キューブフロー」（Youtubeとかで現地の人の発音を聞いた限り、多分）
 
 CI/CDに加え、機械学習ではCT（Continuous Training）というのがある、と[Googleが言っている](https://cloud.google.com/solutions/machine-learning/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build?hl=ja#cicd_pipeline_compared_to_ct_pipeline)。  
 いわゆるMLOpsということになると思うが、このMLOpsを支援するのがKubeflowと言えそう。
