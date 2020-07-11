@@ -16,7 +16,7 @@ abstract: "小杉がCloud Runについて話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-07-11T21:12:17+09:00
+date: 2020-07-12T01:18:00+09:00
 #date_end: 2020-07-11T21:12:17+09:00
 all_day: false
 
@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPCloud-Run-egjq7m" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # 話したこと
 
 ## 雑談
@@ -89,7 +91,7 @@ CLOUD法って何よ...。
 超絶ざっくり言うとアメリカが国外のデータセンターにあるデータでも、米国企業のデータなら令状なしに政府が開示を要求できるというもの。（多分）  
 The Clarifying Lawful Overseas Use of Data Actの略。
 
-ぱっと聞くとヤバそうな法律だけど、Google, Apple, Microsoftなど名だたる企業はこの法律を支持しているらしいし、単純な話ではなさそうなことが分かる。
+ぱっと聞くとヤバそうな法律だけど、Google, Apple, Microsoftなど名だたる企業はこの法律を支持している（おそらくデータ保護に関する法整備が進んできたというポジティブな反応なのだと思われる）らしいし、単純な話ではなさそうなことが分かる。  
 
 「あ、これ知っとかないとダメなやつやん...」と思ったのだった。
 
