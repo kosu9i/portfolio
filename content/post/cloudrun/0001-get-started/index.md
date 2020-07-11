@@ -51,7 +51,7 @@ Cloud Runって？
 k8sを使うほどではないマイクロサービスに向いているとのこと。  
 参考: [GKE と Cloud Run、どう使い分けるべきか](https://cloud.google.com/blog/ja/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
 
-公式ドキュメントに記載されているものを以下に抜粋。
+公式ドキュメントに記載されているもので個人的にしっくりきたものを以下に抜粋。
 
 * シンプルな構成のAPIやWebサイト
 * GSuiteと連携するバックエンドアプリケーション
@@ -59,7 +59,8 @@ k8sを使うほどではないマイクロサービスに向いているとの�
 
 参考: [Cloud Run公式ドキュメント ユースケース](https://cloud.google.com/run?hl=ja#section-5)
 
-基本的には**シンプルな構成**のアプリケーションで**コンテナを使いたい場合**、になると思う。
+基本的には**シンプルな構成**のアプリケーションで**コンテナを使いたい場合**、になると思う。  
+また、制限時間があるので1つのコンテナ処理時間が短いもの。
 
 
 # 基本的な使い方
@@ -94,7 +95,8 @@ StackDriverのログが見れたり。
 
 k8s上でサーバレスワークロードを開発・管理するためのプラットフォーム。  
 Knativeとは？をやり出すと膨大になるので割愛（~~というか知識不足で説明できない~~）  
-参考: [公式ドキュメント](https://cloud.google.com/knative?hl=ja)
+参考: [公式ドキュメント](https://cloud.google.com/knative?hl=ja)  
+ちなみにKubeflowのサービング（[KFServing](https://github.com/kubeflow/kfserving#kfserving)）にもKnativeが使われている。
 
 デプロイ、サービング、オートスケールなど、コンテナアプリケーションの構築で面倒なところを助けてくれる。
 
