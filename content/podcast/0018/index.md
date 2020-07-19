@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "0018"
+title: "#18 【AWS】CDKによる開発でハマったこと"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "加藤がCDKによる開発でハマったことについて話したよ。"
+abstract: "加藤がCDKによる開発でハマったことについて話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-07-19T21:59:43+09:00
+date: 2020-07-20T00:43:00+09:00
 #date_end: 2020-07-19T21:59:43+09:00
 all_day: false
 
@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSCDK-egv092" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # 話したこと
 
 ## 雑談
@@ -104,7 +106,7 @@ projects: []
 
 ### Pinpointで月1250ドル（およそ13万円）のオプションをポチってしまった話
 
-加藤くんのヒヤッとした話。
+加藤くんのやっちまった話。
 
 
 ## 本題
@@ -120,21 +122,9 @@ projects: []
 
 podcast内で話した内容に関連するドキュメントは以下。
 
+* [AWS CDK API Reference](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-construct-library.html)
 * [aws-chatbot module - AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-chatbot-readme.html)
 * [aws-sqs module - AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-sqs-readme.html)
 * [aws-lambda module - AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-lambda-readme.html)
 * https://docs.aws.amazon.com/cdk/latest/guide/cfn_layer.html
 
-
-
-
-
-
-
-
-
-
-
-
-
-* 
