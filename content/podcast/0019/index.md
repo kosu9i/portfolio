@@ -16,7 +16,7 @@ abstract: "小杉がGCPのAutoMLについて話したよ。<br/>サービスの�
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-07-25T03:09:41+09:00
+date: 2020-07-26T01:08:00+09:00
 #date_end: 2020-07-25T03:09:41+09:00
 all_day: false
 
@@ -67,7 +67,7 @@ slides: ""
 projects: []
 ---
 
-Coming Soon...
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPAutoML-eh7pv0" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # 話したこと
 
@@ -124,6 +124,11 @@ Terraformの開発元[HashiCorpが開発中](https://www.hashicorp.com/blog/cdk-
 CDKでGCPを構築できるようになるかもしれない...？
 
 
+### Cloud Next OnAir
+
+[Cloud Next OnAir](https://cloud.withgoogle.com/next/sf/japan#productivity-collaboration)はじまった。
+
+
 ## 本ネタ
 
 ### AutoML
@@ -137,7 +142,7 @@ GCPで提供しているのは以下。
 * AutoML Vision
   - Classification
   - Object Detection
-* AutoML Video Intelligence（ベータ番）
+* AutoML Video Intelligence（ベータ版）
   - Classification
   - Object Tracking
 * AutoML Natural Language
@@ -199,4 +204,4 @@ AutoMLはモデル作成、デプロイ、管理、評価周りを便利にし�
 #### 意見交換
 
 * 画像系MLでなにかやりたいことある？
-  - Classification, Object Detectionが当てはまればAutoML試してアプリを作ってみると良いかも
+  - Classification, Object Detectionが当てはまればAutoML試してアプリ作ってみても良いかも
