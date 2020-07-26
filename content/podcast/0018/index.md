@@ -128,3 +128,4 @@ podcast内で話した内容に関連するドキュメントは以下。
 * [aws-lambda module - AWS CDK](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-lambda-readme.html)
 * https://docs.aws.amazon.com/cdk/latest/guide/cfn_layer.html
 
+詳しいブログへのリンクは[こちら](https://dev.classmethod.jp/articles/cdk-how-to-reseach-method/)。
