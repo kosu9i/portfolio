@@ -40,7 +40,7 @@ Dockerfile内で `ENV DEBIAN_FRONTEND noninteractive` としてしまうと
 そのDocker imageを使っているときに、何も知らないユーザがコンテナ内で追加でapt installしようとする（その良し悪しは置いといて）と  
 環境変数が継承されたままなので、悪影響を及ぼす可能性がある。
 
-そのため、公式では`DEBIAN_FRONTEND`環境変数をデフォルト値（多分`newt`かな）に戻せとある。
+そのため、公式では`DEBIAN_FRONTEND`環境変数を最終的にはデフォルト値（多分`newt`かな）に戻せとある。
 
 私はデフォルト値が`newt`なのか確信がないので、Dockerfile内ではapt installするときに  
 ```
@@ -48,4 +48,4 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   git \
   ...
 ```
-のようにapt実行時にだけ適用することにした。
+のようにapt実行時にだけ適用することにし、再び思考停止した。
