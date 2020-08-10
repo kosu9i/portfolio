@@ -145,12 +145,10 @@ projects: []
   - 1週間でQwiklabsをやる。
   - 各Lab 5回まで実施可能。
   - ほぼ自動化を極めるゲーム。
-  - 小杉は6位になったよ！
 * [日本開催](https://inthecloud.withgoogle.com/noa-learning-program-jp/index.html)
   - 8/4 インフラストラクチャ編, 8/18 データ分析編の2days
   - 3時間でQwiklabsをやる。
   - ほぼ手の速さと正確さを極めるゲーム。（できるなら自動化してもよし）
-  - 小杉は4位になったよ！
 
 賞品は何がもらえるのか不明。
 
