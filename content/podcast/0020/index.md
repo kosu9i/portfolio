@@ -67,7 +67,7 @@ slides: ""
 projects: []
 ---
 
-**Coming soon...**
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/ep-ehuspv" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Note
 
@@ -172,7 +172,7 @@ projects: []
   - Azure: 25.9%
   - クラウド事業が最大の割合
 
-参考として、AWS, GCP, Azureの2019年シェアは、32.3%, 16.9%, 5.8%らしい。  
+参考として、AWS, Azure, GCPの2019年シェアは、32.3%, 16.9%, 5.8%らしい。  
 参考: 「[19年のクラウドインフラ市場、AWSの首位揺るがず　世界シェアの約3割占める　Azureが約2割で猛追](https://www.itmedia.co.jp/news/articles/2002/13/news117.html)」
 
 
