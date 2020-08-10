@@ -152,6 +152,8 @@ projects: []
 
 賞品は何がもらえるのか不明。
 
+{{< figure src="cloudhero_infrastructure.png" title="Cloud Hero 2020 infrastructure LB" numbered="true" lightbox="true" >}}
+
 
 ## その他
 
