@@ -87,7 +87,7 @@ MLエンジニアの定義は自明ではないと思うが、一般的に「ML�
 
 似た資格に[Professional Data Engineer](https://cloud.google.com/certification/data-engineer?hl=ja)というのがある。
 
-これも主観だが、Data Engineerの方は「GCPを使ったデータの管理・加工方法」や「BigQueryそのもの（クエリとか）」についての問題が多いが、ML Engineerの方は「GCPやTensorflowを使ったMLモデルの構築方法」や「BigQuery ML, 」についての問題が多かった印象。 
+これも主観だが、Data Engineerの方は「GCP（特にDataflow, Dataproc）を使ったデータの管理・加工方法」や「BigQueryそのもの（クエリとか）」についての問題が多いが、ML Engineerの方は「GCPやTensorflowを使ったMLモデルの構築方法」や「BigQuery ML」についての問題が多かった印象。  
 まぁ文字通りと言ったところ。
 
 ただ、やはりかぶる領域も多いのでData Engineerをすでに持っている人などはML Engineerも受かりやすいと思われる。
