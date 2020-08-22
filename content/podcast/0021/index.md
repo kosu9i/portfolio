@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#21 "
+title: "#21 【雑談回】クラウド関連ニュース色々"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary: ""
-abstract: ""
+summary: "今回もクラウド関連のニュースについてピックアップして色々話したよ。"
+abstract: "今回もクラウド関連のニュースについてピックアップして色々話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-08-22T15:03:51+09:00
+date: 2020-08-23T01:23:51+09:00
 #date_end: 2020-08-10T15:03:51+09:00
 all_day: false
 
@@ -67,11 +67,11 @@ slides: ""
 projects: []
 ---
 
-Coming Soon...
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/ep-eigqj0" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Note
 
-全部は話さないと思う。台本的に以下に列挙。
+台本的に以下に列挙。
 
 
 ## [Amazonが量子コンピューティングサービス「Amazon Braket」の一般提供を開始（Gigazine）](https://gigazine.net/news/20200814-aws-general-availability-amazon-braket/)
@@ -104,7 +104,7 @@ D-Waveとか名前は知っていたものの、どこでどうすれば利用�
 * Inactiveとは、push, pullがされていない状態のことらしい。
 
 
-## [Oracle Cloud VMware Solution」正式リリース。他社との違いは、オンプレミスと同様にユーザーが管理できること](https://www.publickey1.jp/blog/20/oracle_cloud_vmware_solution.html)
+## [Oracle Cloud VMware Solution」正式リリース。他社との違いは、オンプレミスと同様にユーザーが管理できること（Publickey）](https://www.publickey1.jp/blog/20/oracle_cloud_vmware_solution.html)
 
 * Oracle Cloud上でVMware環境を利用するサービスを正式リリース。
 * AWS, Azure, GCPともにVMwareのフルマネージド環境は提供しているが、これとの違いは「フルマネージドではないこと」らしい。  
@@ -128,7 +128,7 @@ D-Waveとか名前は知っていたものの、どこでどうすれば利用�
   - コンテナ、サービスメッシュ、マイクロサービスなどがキーワードになるらしい。
 
 
-## [Amazon、AWSはMaaS構築の最適なプラットフォームと紹介](https://car.watch.impress.co.jp/docs/news/1271810.html)
+## [Amazon、AWSはMaaS構築の最適なプラットフォームと紹介（Car Watch）](https://car.watch.impress.co.jp/docs/news/1271810.html)
 
 * トヨタがMaaSの基盤としてAWSを活用しているという事例が公開。
 * 上記のリンク先の記事にはスライドもたくさん載っているので、参考になる。
@@ -144,5 +144,6 @@ D-Waveとか名前は知っていたものの、どこでどうすれば利用�
 
 ## Professional Machine Learning Engineer BETA試験受けてきた
 
-詳しくは[こちら](https://mukiudo.dev/post/gcp/0001-certification-ml-engineer/)
+詳しくは[こちら](https://mukiudo.dev/post/gcp/0001-certification-ml-engineer/)  
+大変だった。多分落ちた。
 
