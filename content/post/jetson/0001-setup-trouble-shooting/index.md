@@ -44,6 +44,17 @@ Jetsonの新規インストール手順などは色んな所に書いてるの�
 JetPack 4.4以前から新しいバージョンのJetPackにアップグレードしたい場合は、基本的にクリーンインストールしかない。
 [4.4以降はupgradeできるようになるよ、と本家ドキュメントにはある](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#upgrade-jetpack)が定かではない。期待せずに待つことにする。
 
+### なんでアップグレードしたいか
+
+そもそもなぜアップグレードしたかったかというと、以前までTensorflow 1.14 + JetPack 4.2という組み合わせでやっていた。  
+JetPack 4.2ではCUDA 10.0が使われるのだが、Tensorflow 2.2が使いたくなりCUDA 10.1以上が必要になった。  
+CUDA 10.1を使うにはJetPack 4.4が必要、という流れ。
+
+で、JetPack 4.2上でCUDA 10.1をセットアップしようと試みたが、これがまったくうまくいかない。  
+普通のゲーミングPCみたいにnvidia-driverを上げて、新しいバージョンのCUDAを入れて、とかをaptで簡単にできない。  
+JetsonはARMベースのため、必要なパッケージがaptになかったり、そもそもドライバが独自のものだったりするので  
+ドライバ一式を含んでいるJetPackから入れ直さないとダメだという結論に至った。
+
 
 ## JetPackのバージョン確認
 
