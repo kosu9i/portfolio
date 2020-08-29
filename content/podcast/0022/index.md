@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#22 "
+title: "#22 ピックアップニュース + Jetsonの話"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "クラウドにまつわる気になるニュースをピックアップ + ちょっとだけJetsonについての体験談を話したよ。"
+abstract: "クラウドにまつわる気になるニュースをピックアップ + ちょっとだけJetsonについての体験談を話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-08-29T13:34:53+09:00
+date: 2020-08-30T00:49:53+09:00
 #date_end: 2020-08-29T13:34:53+09:00
 all_day: false
 
@@ -67,7 +67,7 @@ slides: ""
 projects: []
 ---
 
-Coming Soon...
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/Jetson-eir74i" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Note
 
