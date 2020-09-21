@@ -130,6 +130,10 @@ projects: []
 
 NVIDIAはArmの中立性を守ると宣言しているがどうなるか。
 
+[NvidiaによるArm買収の分かりやすい解説](https://www.axion.zone/explanation-of-nvidia-and-arm-deal/)という記事が読み応えもありわかりやすかった。おすすめ。  
+この記事の著者[Takushi Yoshidaさん](https://www.axion.zone/author/yoshi/)は他にもこの界隈の記事を書いているので、時間があるときに読みたい。  
+[AWS Gravitonに関する記事](https://www.axion.zone/aws-gravitontoha/)も書かれており、よさげ。
+
 
 ### [年収1000万円超えが狙える「クラウドエンジニア資格」とは？（TechTarget）](https://techtarget.itmedia.co.jp/tt/news/2009/12/news01.html)
 
