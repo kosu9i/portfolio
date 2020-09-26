@@ -163,9 +163,23 @@ projects: []
 
 NVIDIAはArmの中立性を守ると宣言しているがどうなるか。
 
-[NvidiaによるArm買収の分かりやすい解説](https://www.axion.zone/explanation-of-nvidia-and-arm-deal/)という記事が読み応えもありわかりやすかった。おすすめ。  
+「[NvidiaによるArm買収の分かりやすい解説](https://www.axion.zone/explanation-of-nvidia-and-arm-deal/)」という記事が読み応えもありわかりやすかった。おすすめ。  
+
+↓同記事からの概要部分引用。
+
+> 最新のディープラーニング革命は、①膨大なデータ量②そのデータを処理するための膨大な計算量③オープン性の高い研究とオープンソースコード、が利用可能になったことが要因だった。
+
+> * AIはGPUによって提供される膨大な計算能力を必要とする。  
+> * NvidiaはAIコンピューティングを独占してい  
+> * ARMはコンピューティングの未来  
+> * これらすべての欠片をまとめると、NvidiaがARMを買収したいと考えても不思議ではない。  
+
+NVIDIAは過去にデータセンター向けにGeForceの利用を認めないようライセンス変更をしたことがある。  
+TeslaはGeForceの10倍程度の値段になっており、サーバ用途で多大な利益を生んでいる。
+
 この記事の著者[Takushi Yoshidaさん](https://www.axion.zone/author/yoshi/)は他にもこの界隈の記事を書いているので、時間があるときに読みたい。  
-[AWS Gravitonに関する記事](https://www.axion.zone/aws-gravitontoha/)も書かれており、よさげ。
+[AWS Gravitonに関する記事](https://www.axion.zone/aws-gravitontoha/)も書かれており、よさげ。  
+[Podcast](https://www.axion.zone/tag/podcast/)もやっているので是非聞いていきたい。
 
 
 ### [年収1000万円超えが狙える「クラウドエンジニア資格」とは？（TechTarget）](https://techtarget.itmedia.co.jp/tt/news/2009/12/news01.html)
