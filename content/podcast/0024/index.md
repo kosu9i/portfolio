@@ -78,6 +78,26 @@ projects: []
 - 今まではEC2のワーカーノード経由でEFSを利用できたが、これからはKubernetes APIを利用して直接EFSを利用可能。
 
 
+### [AWS Lambda、AWS Step Functionsワークフローの表示が可能に（CodeZine）](https://codezine.jp/article/detail/12916)
+
+* Lambdaのコンソール上でもStep Functionsのワークフロー表示に対応。
+* LambdaとStep Functionsが使える全リージョンで対応。
+
+{{< figure src="lambda_sf.png" title="LambdaのコンソールにStepFunctions追加？" numbered="true" lightbox="true" >}}
+
+確かにLambdaのコンソールからStepFunctionsのステートマシンが見えるけど、これって前から？今回のアップデートで追加された？  
+
+
+### [AWSがアーキテクチャ図を自動作成できるソリューション実装「AWS Perspective」を公開（Gigazine）](https://gigazine.net/news/20200924-aws-perspective/)
+
+* [AWS Perspective](https://aws.amazon.com/jp/solutions/implementations/aws-perspective/)が公開。
+* SaaSとして提供されるわけではなく、Perspective自体のCloud Formationテンプレートが用意されているので自前で構築する。
+  - 結構ゴツ目のスタック。作成に約40分程度かかるらしい。
+* アーキテクチャ図のexportも可能。（CSV, JSON, PNG, Draw.io）
+* 起動しっぱなしだと月6万円くらいかかりそう。
+* 特定のアカウント, リージョンのリソースを収集するっぽい。
+* サードパーティの類似サービスとしては[Cloudcraft](https://www.cloudcraft.co/), [Hava]()あたりか。
+
 ### [Microsoftの量子コンピューティング環境「Azure Quantum」登場（ITmedia）](https://techtarget.itmedia.co.jp/tt/news/2008/28/news01.html)
 
 * AWSに続き、Azureでも量子コンピューティングのクラウド利用をプレビュー版で提供開始。
@@ -99,11 +119,24 @@ projects: []
 であれば、量子コンピューティングはクラウドのような利用形態がしばらく主流になりそう。
 
 
+### [元日本オラクル副社長、グーグル・クラウド・ジャパンに移籍（日経XTECH）](https://xtech.nikkei.com/atcl/nxt/news/18/08792/)
+
+* 日本オラクル副社長を2020/8月に退任していた石積尚幸（いしづみ ひさゆき）さんという方がGCPの上級執行役員に。
+* 同氏は、日本HP出身。46歳くらいで日本HPの副社長に。
+* GCPではパートナー事業を担当する。
+
+
 ### [Google Cloud Healthcare APIが一般利用可能に（InfoQ）](https://www.infoq.com/jp/news/2020/08/google-healthcare-api-ga/)
 
 * [Cloud Healthcare API](https://cloud.google.com/healthcare)がGAに
 * ヘルスケアのサービスはAWSやAzureでもあるらしい。
 * `HL7、FHIR、DICOMなどの主要なヘルスケアデータタイプを取り込んで管理するための堅牢でスケーラブルなインフラストラクチャソリューション` らしい。
+
+
+### [Google Cloud API Gateway の公開ベータ版がリリース](https://cloud.google.com/blog/ja/products/serverless/google-cloud-api-gateway-is-now-available-in-public-beta)
+
+[Cloud Endpoints](https://cloud.google.com/endpoints?hl=ja)との違いがわかっていない...  
+基本的にはCloud Endpointsの後継となるという話もどこかで聞いたなレベル。
 
 
 ### [Google Cloud、「Google Cloud App Modernization Program（CAMP）」を発表（@IT）](https://www.atmarkit.co.jp/ait/articles/2009/03/news062.html)
@@ -146,12 +179,6 @@ NVIDIAはArmの中立性を守ると宣言しているがどうなるか。
 ### [クラウドデータウェアハウスのSnowflake、上場初日の株価が急騰（ZDNet）](https://japan.zdnet.com/article/35159735/)
 
 人気のDWH、Snowflakeが上場。
-
-
-### [Google Cloud API Gateway の公開ベータ版がリリース](https://cloud.google.com/blog/ja/products/serverless/google-cloud-api-gateway-is-now-available-in-public-beta)
-
-[Cloud Endpoints](https://cloud.google.com/endpoints?hl=ja)との違いがわかっていない...  
-基本的にはCloud Endpointsの後継となるという話もどこかで聞いたなレベル。
 
 
 ## Cloud Runアップデート
