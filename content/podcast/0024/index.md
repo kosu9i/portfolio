@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#24 Coming Soon"
+title: "#24 AWS・GCPアップデート情報, Cloud Runアップデート, クラウドエンジニアの年収, etc"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary: "Coming Soon"
-abstract: "Coming Soon"
+summary: "小杉がメインでCloud Runのアップデートとかについて話したよ。<br>NVIDIAの話もしたら誰かしらに怒られそうなくらい酷い説明になってしまったよ。聞き飛ばした方がいいよ。"
+abstract: "小杉がメインでCloud Runのアップデートとかについて話したよ。<br>NVIDIAの話もしたら誰かしらに怒られそうなくらい酷い説明になってしまったよ。聞き飛ばした方がいいよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-09-21T18:00:16+09:00
+date: 2020-09-27T01:00:16+09:00
 #date_end: 2020-09-21T18:00:16+09:00
 all_day: false
 
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSGCP--Cloud-Run----etc-ek73h0" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Note
 
