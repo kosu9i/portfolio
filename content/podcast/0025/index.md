@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#25 Coming Soon"
+title: "#25 AWS Amplify, GCPアップデート, AWS DevDay, etc"
 event:
 event_url:
 location:
@@ -11,8 +11,8 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "加藤がAWS Amplifyのアップデートと、関連してSPA、SSR、JAMStackとかについて話したよ。"
+abstract: "加藤がAWS Amplifyのアップデートと、関連してSPA、SSR、JAMStackとかについて話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWS-Amplify--GCP--AWS-DevDay--etc-ekj43j" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # Show Note
 
 ## [AWS DevDay Online Japan](https://aws.amazon.com/jp/about-aws/events/2020/devday/)
@@ -117,3 +119,10 @@ GCSには特定の地域でよしなにマルチリージョン, デュアルリ
 * 9/29 [「Microsoft 365」で障害発生（約5時間後に復旧）（ITMedia）](https://www.itmedia.co.jp/news/articles/2009/29/news065.html)
 * 10/1 東証
   - [記者会見](https://youtu.be/ACFLlMXhlWg)が見事と絶賛されている。
+
+
+## AWS Amplify SSR対応
+
+[AWS Amplify](https://aws.amazon.com/jp/amplify/)のSSR対応について。
+
+JAMstackについては、[JAMstackってなに？実践に学ぶ高速表示を実現するアーキテクチャの構成](https://employment.en-japan.com/engineerhub/entry/2019/12/10/103000)という記事が非常にわかりやすい。
