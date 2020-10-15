@@ -32,7 +32,7 @@ projects: []
 
 1. [isoイメージ](https://releases.ubuntu.com/18.04/)をダウンロード。
 2. USBをフォーマット。
-```shell
+```bash
 # USBのデバイスを確認（USB挿入前後で増えたやつがそれ。ここでは/dev/disk6と仮定する）
 $ diskutil list
 
@@ -43,8 +43,8 @@ $ diskutil unmountDisk /dev/disk6
 diskutil eraseDisk HFS+ Untitled /dev/disk6
 
 ```
-3. UTBにイメージを書き込み
-```shell
+3. USBにイメージを書き込み
+```bash
 # アンマウント
 $ diskutil unmountDisk /dev/disk6
 
