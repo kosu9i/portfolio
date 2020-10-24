@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#27 Coming Soon"
+title: "#27 AWS Dev Day, SageMaker GPU値下げ, Chaos Mesh, Azure Base, クラウド政府共通基盤, etc"
 event:
 event_url:
 location:
@@ -11,8 +11,8 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "ざっくばらんに小杉が話したよ。"
+abstract: "ざっくばらんに小杉が話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -68,6 +68,8 @@ projects: []
 ---
 
 # Show Note
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWS-Dev-Day--SageMaker-GPU--Chaos-Mesh--Azure-Base----etc-elh4f6" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 
 ## [AWS Dev Day Online Japan](https://aws.amazon.com/jp/about-aws/events/2020/devday/)
