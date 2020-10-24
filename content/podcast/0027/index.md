@@ -119,6 +119,7 @@ projects: []
 * GPUではない。独自のInferentiaと呼ばれるチップを採用。
 * 確かに安い。速度測定して使えそうなワークロードは移行して良いかも。
 * [AWS Neuron SDK](https://github.com/aws/aws-neuron-sdk)というものでモデルをコンパイルする必要あり。
+  - Tensorflow, MXNet, Pytorchに対応している様子。
 
 
 ## [AWS、独自開発したARMベースの「Graviton 2」プロセッサを、「Amazon ElastiCache」のデフォルトプロセッサに（Publickey）](https://www.publickey1.jp/blog/20/awsarmgraviton_2amazon_elasticache.html)
@@ -176,3 +177,5 @@ AWSパブリックセクターが2017年から提案を開始。大きく2つの
 （参考: [日本政府、AWSベースの情報システム基盤を運用開始　デジタルシフトの起爆剤になるか（ITmedia）](https://news.yahoo.co.jp/articles/6e4f8cb821628ea043f49a5ebebf93d642f02361)）
 
 東京と大阪のマルチリージョンで運用を計画しているっぽい。
+
+今後の課題など: 「[日本政府がAWSを採用したからといってデジタル化が進むわけではない理由（@IT）](https://www.atmarkit.co.jp/ait/articles/2010/19/news027.html)」
