@@ -70,6 +70,19 @@ projects: []
 # Show Note
 
 
+## [AWS Dev Day Online Japan](https://aws.amazon.com/jp/about-aws/events/2020/devday/)
+
+基調講演とワークショップに参加した。
+
+* 基調講演あつかった。6人とも素晴らしい人達で、共通して情熱と視野の広さを感じた。
+  - 複数のスキルの掛け算みたいな話が示し合わせたように出ていて共感。
+* オンラインのセッションはライブ感がないので、対話形式の基調講演はとても良かった。  
+  視聴者からの質問をトークに交えていたのも良かった。
+* 通訳の人すごい。  
+* 普段Twitterでよく見ているAWS Japanの人たちの人となりが分かってよかった。
+* アンケートに回答するとアーカイブへのリンクをもらえるらしい。
+
+
 ## [Amazon SageMaker が今後も機械学習のトップランナーであり続けることの宣言と、GPU インスタンス料金の最大 18% 引き下げのお知らせ](https://aws.amazon.com/jp/blogs/news/amazon-sagemaker-leads-way-in-machine-learning/)
 
 * 2017年にSageMakerがリリースされ、様々な業界で利用されてきた。  
@@ -100,23 +113,6 @@ projects: []
     ただ、SageMakerはスポットインスタンスが使うとかなり安くなる。
   
 
-## [KubernetesのPodやネットワークをわざと落としまくってカオスエンジニアリングのテストができる「Chaos Mesh」がバージョン1.0に到達（Publickey）](https://www.publickey1.jp/blog/20/kubernetespodchaos_mesh10.html)
-
-* k8sクラスタの一部に障害を起こすテスティングツール。
-* Netflixが開発。Netflixは本番環境に対してこれを適用している。
-* AWS上で障害を発生させる[Chaos Monkey](https://www.publickey1.jp/blog/12/chaos_monkeynetflix.html), [Chaos Kong](https://www.publickey1.jp/blog/15/chaos_kongnetflix.html)というツールもある。
-
-
-## [Google、最適化されたコンテナイメージを生成する「buildpacks」をオープンソースで公開。Dockerfile不要でJavaやGo、Node.jsをコンテナへビルド（Publickey）](https://www.publickey1.jp/blog/20/googlebuildpacksdockerfilejavagonodejs.html)
-
-* Dockerfile不要でDockerイメージが作れるツールをOSSで公開。
-* GCPではCloud Run, Anthos, GKEで利用可能。
-* もともとはHerokuが開発・利用していたものがCNCFで採用。
-* Googleが[公開](https://github.com/GoogleCloudPlatform/buildpacks)
-* Go、Java、Node、Python、.NETに対応。バージョンは[こちら](https://github.com/GoogleCloudPlatform/buildpacks#general-builder-and-buildpacks)を参照。
-* buildpacksのイメージ, コンテナを[拡張することもできるっぽい](https://github.com/GoogleCloudPlatform/buildpacks#extending-the-run-image)。
-
-
 ## [AmazonがECSでEC2 Inf1インスタンスのサポートを発表（InfoQ）](https://www.infoq.com/jp/news/2020/10/amazon-ecs-ec2-inf1/)
 
 * 機械学習の推論に特化した[inf1インスタンス](https://aws.amazon.com/jp/ec2/instance-types/inf1/)というのがあり、それがECSで利用可能に。
@@ -132,6 +128,24 @@ ElasticCacheでGraviton 2が採用。
 > マネージドサービスであれば、ユーザーにとってちゃんとサービスが動いてくれさえすればプロセッサは何が使われていても気にしません。より安く使えればそれでよいのです。それが、Amazon ElastiCacheでGraviton 2プロセッサをデフォルトにした理由でしょう。
 
 うむ。
+
+
+## [Google、最適化されたコンテナイメージを生成する「buildpacks」をオープンソースで公開。Dockerfile不要でJavaやGo、Node.jsをコンテナへビルド（Publickey）](https://www.publickey1.jp/blog/20/googlebuildpacksdockerfilejavagonodejs.html)
+
+* Dockerfile不要でDockerイメージが作れるツールをOSSで公開。
+* GCPではCloud Run, Anthos, GKEで利用可能。
+* もともとはHerokuが開発・利用していたものがCNCFで採用。
+* Googleが[公開](https://github.com/GoogleCloudPlatform/buildpacks)
+* Go、Java、Node、Python、.NETに対応。バージョンは[こちら](https://github.com/GoogleCloudPlatform/buildpacks#general-builder-and-buildpacks)を参照。
+* buildpacksのイメージ, コンテナを[拡張することもできるっぽい](https://github.com/GoogleCloudPlatform/buildpacks#extending-the-run-image)。
+
+
+## [KubernetesのPodやネットワークをわざと落としまくってカオスエンジニアリングのテストができる「Chaos Mesh」がバージョン1.0に到達（Publickey）](https://www.publickey1.jp/blog/20/kubernetespodchaos_mesh10.html)
+
+* k8sクラスタの一部に障害を起こすテスティングツール。
+* Netflixが開発。Netflixは本番環境に対してこれを適用している。
+* AWS上で障害を発生させる[Chaos Monkey](https://www.publickey1.jp/blog/12/chaos_monkeynetflix.html), [Chaos Kong](https://www.publickey1.jp/blog/15/chaos_kongnetflix.html)というツールもある。
+* ちょっと最近クラウドの障害が目立つので、良いプロダクトかも。
 
 
 ## [日本マイクロソフト、ニューノーマル時代のDX支援プロジェクト「Azure Base」をスタート（クラウドWatch）](https://cloud.watch.impress.co.jp/docs/news/1282972.html)
