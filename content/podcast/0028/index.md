@@ -94,6 +94,21 @@ projects: []
 * セッションカタログは11月中旬公開予定。
 
 
+## [LambdaがAmazon MQのイベントソースマッピングに対応](https://awsapichanges.info/archive/changes/034487-lambda.html)
+
+*  LambdaがAmazon MQのイベントソースマッピングに対応
+  - SQSとMQ：機能は同じだが、業界標準のAPIやプロトコルに対応しているのはMQの方（SQSがAWS独自）
+* オンプレでActiveMQとかRabbitMQなどのブローカーエンジンを使ったシステムのマイグレーションとかの設計時に選択肢として用意しておくとよいのでは
+
+
+## [Amazon CloudWatch launches Metrics Explorer](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/amazon-cloudwatch-launches-metrics-explorer/)
+
+参考: [CloudWatchダッシュボードをタグベースで簡単に作成できるMetrics Explorerがリリースされました](https://dev.classmethod.jp/articles/cloudwatch-launches-metrics-explorer/)
+
+* CWのダッシュボードが容易に追加できる
+* タグベースでメトリクスを表示できる
+
+
 ## A100 GPUのクラウド提供開始
 
 ### [AWSでのA100 GPU提供](https://aws.amazon.com/jp/ec2/instance-types/p4/)
@@ -110,14 +125,6 @@ projects: []
 
 * プライベートアルファで申し込み必要。今年中にGAになる予定。
 * GCPではGPUの数などスペックを選べるっぽい。
-
-
-## [Amazon CloudWatch launches Metrics Explorer](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/amazon-cloudwatch-launches-metrics-explorer/)
-
-参考: [CloudWatchダッシュボードをタグベースで簡単に作成できるMetrics Explorerがリリースされました](https://dev.classmethod.jp/articles/cloudwatch-launches-metrics-explorer/)
-
-* CWのダッシュボードが容易に追加できる
-* タグベースでメトリクスを表示できる
 
 
 ## [Docker Hub、6カ月使われていないコンテナイメージの削除計画を保留に。従量課金ベースの料金プランを検討へ | Publickey](https://www.publickey1.jp/blog/20/docker_hub6_1.html)
@@ -140,13 +147,15 @@ projects: []
   - 無料枠で足りない場合は有料プランを契約
 * DockerHub以外のレジストリサービスにpullするイメージを退避
 
-現在自分に適用されている制限を確認するには以下。（参考: [docker公式ドキュメント](https://matsuand.github.io/docs.docker.jp.onthefly/docker-hub/download-rate-limit/)）
+現在自分に適用されている制限を確認するには以下。（参考: [docker公式ドキュメント](https://matsuand.github.io/docs.docker.jp.onthefly/docker-hub/download-rate-limit/)）  
+
+[ワンライナーで確認するGistあげました](https://gist.github.com/kosu9i/efb54c53d6442ce0bfb649c8542d9a8b)
 
 ```sh
-# 匿名ユーザの場合
+# 匿名ユーザで確認する場合
 $ TOKEN=$(curl "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
 
-# docker loginした後の場合
+# docker hubユーザで確認する場合
 $ TOKEN=$(curl --user 'username:password' "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
 ```
 
@@ -161,6 +170,7 @@ $ curl -v -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/rate
 
 上記、自分が試したときは2483回。`w=`は21600秒 = 6時間という意味。
 
+
 ## [AWSがDocker Hubの代替サービスを発表予告。パブリックにコンテナイメージを公開可能で50GBまで無料、AWSからなら何度でもプルし放題に | Publickey](https://www.publickey1.jp/blog/20/awsdocker_hub50gbaws.html)
 
 * 毎月50GBまでpush可能。
@@ -170,4 +180,3 @@ $ curl -v -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/rate
 * AWSアカウントで認証すると毎月5TBデータ帯域幅まで無料。
   - ECRはプライベートのみ。
 * AWS上のワークロードであれば制限なし。
-
