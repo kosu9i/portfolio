@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#28 Coming Soon"
+title: "#28 re:Invent 2020, A100 GPUインスタンス, DockerHub pull制限"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "re:Invent 2020申し込み開始, A100 GPUインスタンスのリリース, DockerHub pull制限を見落としていた件などについて話したよ。<br>小杉の音声が少し割れてしまったよ。"
+abstract: "re:Invent 2020申し込み開始, A100 GPUインスタンスのリリース, DockerHub pull制限を見落としていた件などについて話したよ。<br>小杉の音声が少し割れてしまったよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-11-06T01:05:02+09:00
+date: 2020-11-08T16:35:02+09:00
 #date_end: 2020-11-06T01:05:02+09:00
 all_day: false
 
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/reInvent-2020--A100-GPU--DockerHub-pull-em67m8" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 
