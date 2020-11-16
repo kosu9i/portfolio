@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#29 Coming Soon"
+title: "#29 CKAD, CloudRun新機能, AWSアップデート, Google Cloud Shell Editor, etc"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "タイトルどおり、ざっくばらんに話したよ"
+abstract: "タイトルどおり、ざっくばらんに話したよ"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-11-15T20:47:25+09:00
+date: 2020-11-16T10:00:00+09:00
 #date_end: 2020-11-15T20:47:25+09:00
 all_day: false
 
@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/CKAD--CloudRun--AWS--Google-Cloud-Shell-Editor--etc-emhbmj" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # Show Notes
 
 ## [KubeCon + CloudNativeCon North America 2020](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)
@@ -115,6 +117,37 @@ projects: []
 > NG: ENTRYPOINT node server.js  # これは ENTRYPOINT ["/bin/sh", "-c", "node server.js"]と解釈される。  
 > OK: ENTRYPOINT ["python", "server.js"]
 * ソースコード的には単にSIGTERMのハンドラを定義しておくことになる。
+
+## [Athenaがフェデレーテッドクエリに対応](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/aws-what-s-new-for-athena-federated-query/)
+
+Amazon Athena adds support for running SQL queries across relational, non-relational, object, and custom data sources. 
+
+* Redshiftやオンプレ、Redisなど複数のデータソースから対してSQLの1クエリで同時に取得できる機能
+* フェデレーテッドクエリの参考記事：https://aws.amazon.com/jp/blogs/news/query-any-data-source-with-amazon-athenas-new-federated-query/
+
+
+## [Lambda ExtentionsでDatadogやNew Relic等の3rd party製プロダクトにログを直接送信できるようになった](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/aws-lambda-send-logs-custom-destinations/)
+
+AWS Lambda now makes it easier to send logs to custom destinations 
+
+* これまではLambda側、もしくはCWLog側からひと手間かけて収集が必要だったが、それが要らなくなった
+* 参考：https://dev.classmethod.jp/articles/cons-of-lambda-extensions/
+
+
+## [DDBのデータをS3にエクスポートできるようになった](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/now-you-can-export-your-amazon-dynamodb-table-data-to-your-data-lake-in-amazon-s3-to-perform-analytics-at-any-scale/)
+
+Now you can export your Amazon DynamoDB table data to your data lake in Amazon S3 to perform analytics at any scale 
+
+* DDBのデータをS3にエクスポートできるようになった（新UIから）
+* 既存のDBからテストデータを作るのとかちょっと楽になるかも
+
+## [Lightsailでコンテナ作れるようになった](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/announcing-amazon-lightsail-containers/)
+
+Announcing Amazon Lightsail Containers, an easy way to run containerized applications on the cloud 
+
+* Lightsailでコンテナ作れるようになった
+* Lightwailは初心者でも簡単に月額で使えるインスタンス作ったりできるサービス
+* かんたんにサクッとコンテナ作るのにはいいかも
 
 
 ## [Google、VSCodeの代替を狙う「Eclipse Theia」コードエディタをクラウド統合開発環境として採用。Google Cloud Shellに統合を発表 | Publickey](https://www.publickey1.jp/blog/20/googlevscodeeclipse_theiagoogle_cloud_shell.html)
