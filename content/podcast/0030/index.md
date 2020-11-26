@@ -117,6 +117,27 @@ GCPはCloud Nextの前はよく落ちるという都市伝説があるが、re:I
 {{< figure src="snapshot.jpg" title="引用: https://aws.amazon.com/jp/blogs/news/s3-storage-lens/" numbered="true" lightbox="true" >}}
 
 
+## [AWS、Alexaのクラウド処理をGPUから独自チップに切り替え　高速化でサーバコストを大幅削減 | ITmedia](https://www.itmedia.co.jp/news/articles/2011/18/news119.html)
+
+AlexaのText-to-speech処理を今までGPUでやってきたが、独自のASIC「AWS Inferentia」に変更。  
+このInferentiaはインスタンスとしても提供されており、`inf1.xlarge`などで利用可能。  
+推論特化GPUのNvidia T4を使える`g4dn.xlarge`と比較すると40%くらい安い。さらにスループットはInferentiaの方が30%高いと主張しているとのこと。
+
+
 ## [CKAD体験記書いた](https://mukiudo.dev/post/k8s/0001-ckad/)
 
 CKADの受験記を書いた。
+
+
+## Advent Calendar書いてくよ
+
+Podcastで2つ
+
+* [Podcastな Advent Calendar 2020](https://adventar.org/calendars/5457)の12/6（土）
+  - 自分のPodcastを配信する目的（ポエム）
+* [ポッドキャスト配信について語る Advent Calendar 2020](https://adventar.org/calendars/5597)の12/24（木）
+  - 低予算そこそこ音質で始めるpodcast
+
+自作キーボードで1つ
+* [キーボード #2 Advent Calendar 2020](https://adventar.org/calendars/5307)
+  - パーツ寄せ集めで始めた自作キーボード（初心者）の12/13（日）
