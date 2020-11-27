@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/reInvent-2020--AWS--AWS--etc-en1p11" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # Show Notes
 
 ## [re:Invent セッションカタログ公開](https://reinvent.awsevents.com/)
