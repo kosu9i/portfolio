@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#30 Coming Soon"
+title: "#30 re:Invent 2020セッションカタログ, AWS障害, AWSアップデート情報, etc"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "AWSのアップデート情報などを中心にざっくばらんに話したよ。"
+abstract: "AWSのアップデート情報などを中心にざっくばらんに話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-11-26T23:00:09+09:00
+date: 2020-11-27T22:05:09+09:00
 #date_end: 2020-11-26T23:00:09+09:00
 all_day: false
 
@@ -93,6 +93,18 @@ projects: []
 アジアリージョンとかではCloudFrontのみ影響があったらしい。
 
 GCPはCloud Nextの前はよく落ちるという都市伝説があるが、re:Invent関係あるのか...？信じるか信じないかは(ry
+
+
+## [AWS Step Functions が Amazon API Gateway サービスとの統合サポートを開始](https://aws.amazon.com/jp/about-aws/whats-new/2020/11/aws-step-functions-supports-amazon-api-gateway-service-integration/)
+
+* 2020/11/17発表
+* API Gatewayも対応した
+* 既存のワークフローにAPI Gatewayが追加可能になったので、楽になるかも
+* 補足：AWS Step Functionsについて
+	* APワークフローの構築ができる
+	* 個人的には、REST APIを使っていて、30秒以上かかる処理をする場合に、Lambda使えないけどサーバレスにしたい（Batch使わない）場合にStepFunctionsを使う
+	* 別々なLambdaの実行履歴をタイムラインで見れるのが魅力
+	* アップデート前だと、Lambdaの他にSQS、ECSに対応していた
 
 
 ## [Introducing Amazon Managed Workflows for Apache Airflow (MWAA)](https://aws.amazon.com/jp/blogs/aws/introducing-amazon-managed-workflows-for-apache-airflow-mwaa/)
