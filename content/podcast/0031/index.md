@@ -83,7 +83,7 @@ re:Invent 2020の前夜祭的なイベント。
 
 最初はコンサートがあったり、re:Inventの概要を紹介されたり。（今年はCOVID-19の影響で云々カンヌン, etc）
 
-{{< figure src="concert.jpeg" title="Zack Personというミュージシャンのコンサート" numbered="true" lightbox="true" >}}
+{{< figure src="concert.jpeg" title="Zach Personというミュージシャンのコンサート" numbered="true" lightbox="true" >}}
 
 
 ### 言語
