@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWS-reInvent-2020-Late-Night-Week1-Mac-Instance-en771s" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # Show Notes
 
 ## Late Night Week1
