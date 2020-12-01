@@ -138,8 +138,9 @@ TwitterのTLがMac Instanceの話で埋まった。
 ```
 $ aws ec2 allocate-hosts --instance-type mac1.metal   --availability-zone ap-southeast-1a --auto-placement on   --quantity 1 --region ap-southeast-1
 ```
-2. EC2インスタンスを上記のDedicated Hostで起動。
-3. 作成したキーペアでsshで接続。
+2. EC2インスタンスを上記のDedicated Host上で起動。
+3. セキュリティグループで22を許可。
+4. 作成したキーペアでsshで接続。
 
 {{< figure src="ssh.png" title="ssh接続" numbered="true" lightbox="true" >}}
 
@@ -160,6 +161,8 @@ $ sudo passwd ec2-user
 
 {{< figure src="vnc1.png" title="VNC接続" numbered="true" lightbox="true" >}}
 {{< figure src="vnc2.png" title="VNC接続 ログイン後" numbered="true" lightbox="true" >}}
+
+**試したあとはDedicated Hostを必ずリリースすること！！EC2インスタンスを起動していなくても料金がかかるので。**
 
 
 #### 何に使おう
