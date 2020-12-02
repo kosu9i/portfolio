@@ -51,6 +51,25 @@ projects: []
   「正式版のリリース前までのいつか」にメール通知されるとのこと。
 
 
+# GCP英語版試験を申し込む方法
+
+GCPの資格受験には[Webassessor](https://www.webassessor.com/wa.do?page=defaultLogin)というGCPとは別のサイトにアカウント登録して  
+そこから試験の申し込み（日程や受験場所など）を行う必要がある。
+
+すでにProfessional Cloud ArchitectなどのGCP資格を受けたことがある人は上記のWebassessorアカウントを持っているはずだが、  
+日本語版の試験と、英語版の試験とでは別のWebassessorのアカウントが必要になる。  
+（Webassessorにログインしてマイページの言語や国の設定をEnglishにしてもダメ）
+
+[ここ](https://cloud.google.com/certification/register)にある通り
+> 言語を選択すると、受験日を選ぶことができます。言語ごとに個別の Google Cloud Webassessor アカウントが必要です。
+
+らしい。 ~~（めんどい）~~
+
+そのため、今まで受験したのが日本語版のGCP資格のみの場合は、「[認定各取得のための登録](https://cloud.google.com/certification/register)」にあるテーブルの各言語リンクをクリックしてWebassessorのアカウントを別途作成することが必要。
+
+{{< figure src="lang.png" title="Webassessor言語ごとの受験リンク" numbered="true" lightbox="true" >}}
+
+
 # Professional Machine Learning Engineer BETAの試験範囲
 
 [公式ページの試験ガイド](https://cloud.google.com/certification/guides/machine-learning-engineer)に載っている。
