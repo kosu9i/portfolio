@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "GCPの新資格 \"Professional Machine Learning Engineer BETA\" を受けてきた"
+title: "[受験記] GCPの新資格 \"Professional Machine Learning Engineer BETA\" を受けてきた"
 subtitle: ""
 summary: ""
 authors: []
