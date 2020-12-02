@@ -86,6 +86,25 @@ re:Inventがオンラインで3週間という人類がいまだかつて経験�
 ここでも自分たちが興味のあるものに絞る。
 
 
+## re:Invent情報収集おすすめリンク
+
+最初に情報収集としておすすめリンクをまとめて貼っておく。
+
+* [AWS What's New Feed](https://aws.amazon.com/new/?nc1=h_ls)
+  + 公式の最新情報フィード
+  + 言語設定は英語にしておくべし
+* [AWS News Blog](https://aws.amazon.com/blogs/aws/)
+  + 公式のブログ
+  + re:Invent中はすごい勢いで更新される
+  + 言語設定は英語にしておくべし
+* [Twitterハッシュタグ #reinvent](https://twitter.com/search?q=%23reInvent&src=recent_search_click)
+* [Developers.IO produced by Classmethod re:Invent 2020用ページ](https://dev.classmethod.jp/referencecat/aws-reinvent-2020/)
+  + 言わずとしれたクラスメソッド社のre:Invent 2020用ページ
+  + re:Invent中はすごい勢いで更新される。
+  + ここを見ておけば、だいたい日本語でのキャッチアップできるのではという安心感。
+  + 社員の皆さん、無理はせずお身体には気をつけてください...
+
+
 ## SageMaker周辺アップデート
 
 12/2の最初のCEO Andy Jassy Key Noteで発表された。  
@@ -249,18 +268,4 @@ AWSだと[Amazon Rekognition Custom Labels](https://aws.amazon.com/jp/rekognitio
 * 2021年から使えるようになるらしい。現在[プレビュー版申し込み中](https://pages.awscloud.com/trainium-preview.html)。
 
 
-## re:Invent情報収集おすすめリンク
 
-* [AWS What's New Feed](https://aws.amazon.com/new/?nc1=h_ls)
-  + 公式の最新情報フィード
-  + 言語設定は英語にしておくべし
-* [AWS News Blog](https://aws.amazon.com/blogs/aws/)
-  + 公式のブログ
-  + re:Invent中はすごい勢いで更新される
-  + 言語設定は英語にしておくべし
-* [Twitterハッシュタグ #reinvent](https://twitter.com/search?q=%23reInvent&src=recent_search_click)
-* [Developers.IO produced by Classmethod re:Invent 2020用ページ](https://dev.classmethod.jp/referencecat/aws-reinvent-2020/)
-  + 言わずとしれたクラスメソッド社のre:Invent 2020用ページ
-  + re:Invent中はすごい勢いで更新される。
-  + ここを見ておけば、だいたい日本語でのキャッチアップできるのではという安心感。
-  + 社員の皆さん、無理はせずお身体には気をつけてください...
