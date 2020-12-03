@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#32 Coming Soon"
+title: "#32 re:Invent Key Note(Andy Jassy)で発表されたAI/ML系サービス振り返り + ちょっとProton"
 event:
 event_url:
 location:
@@ -11,8 +11,8 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "re:Invent 2020の1発目のKey Note(Andy Jassy)で発表されたAI/機械学習系サービスの振り返りと、ちょっとProtonの話、さらにちょっとだけ気になる各種アップデート、などについて話したよ。re:Inventのキャッチアップが追いつかないよ。"
+abstract: "re:Invent 2020の1発目のKey Note(Andy Jassy)で発表されたAI/機械学習系サービスの振り返りと、ちょっとProtonの話、さらにちょっとだけ気になる各種アップデート、などについて話したよ。re:Inventのキャッチアップが追いつかないよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/reInvent-Key-NoteAndy-JassyAIML--Proton-en9f5e" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 
@@ -267,5 +269,27 @@ AWSだと[Amazon Rekognition Custom Labels](https://aws.amazon.com/jp/rekognitio
 * [AWS Neuron SDK](https://aws.amazon.com/jp/machine-learning/neuron/)ってのが必要。
 * 2021年から使えるようになるらしい。現在[プレビュー版申し込み中](https://pages.awscloud.com/trainium-preview.html)。
 
+---
 
+## [AWS Proton](https://aws.amazon.com/jp/blogs/aws/preview-aws-proton-automated-management-for-container-and-serverless-deployments/)
 
+- サーバーレスおよびコンテナベースのアプリケーションのインフラとサービスの管理・デプロイ・監視ができるフルマネージドサービス
+    - テンプレート単位で管理する
+        - 環境テンプレート
+            - VPC等のインフラを定義するもの
+        - サービステンプレート
+            - LambdaやECSタスク定義など
+- パブリックプレビュー
+- ap-northeast-1にも対応
+- テンプレートを作成してスタックを作成するという点ではCfnと同じ
+- 所感
+    - CFn + 構成管理的なもの？
+        - 「インフラ」と「サービス」という単位でCFnテンプレートをまとめる
+        - まとめたものにバージョンを付ける
+        - まとめたもの単位で立ち上げできる
+    - 結局yamlを書くつらみは変わらない。それなら僕はCDK使いたいかも
+    - 大量のリソース管理するのにカオスになりにくいかも
+        - スタックの管理できないほどの規模とか、チーム体制にならない限りはいらないかも。（アジリティを欠く）
+- 参考
+    1. 【速報】サーバーレスとコンテナのデプロイを管理するAWS Protonがリリースされました！[プレビュー] #reinvent | [Developers.IO](http://developers.io/) [https://dev.classmethod.jp/articles/aws-proton/](https://dev.classmethod.jp/articles/aws-proton/)
+    2. re:Invent2020で発表されたAWS Protonとはなにか？ - How elegant the tech world is...! [https://iselegant.hatenablog.com/entry/2020/12/02/173545](https://iselegant.hatenablog.com/entry/2020/12/02/173545)
