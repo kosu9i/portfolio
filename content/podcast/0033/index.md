@@ -118,7 +118,7 @@ Feature Storeは具体的には以下のようなことをやってくれる。
 * メタデータを元にSageMaker Studio内でグルーピング、検索できるようになっている。  
 
 触ってみた記事がdevelopers.ioにあったので紹介:「[Amazon SageMaker Feature StoreのExampleを実行してみた](https://dev.classmethod.jp/articles/try-sagemaker-feature-store/)」  
-同記事内でふれられているが、SageMakerには[公式サンプル集](https://sagemaker-examples.readthedocs.io/en/latest/index.html)があり、そこに[Fraud Detection with Amazon SageMaker FeatureStore¶](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker-featurestore/sagemaker_featurestore_fraud_detection_python_sdk.ipynb)に追加されている。
+同記事内でふれられているが、SageMakerには[公式サンプル集](https://sagemaker-examples.readthedocs.io/en/latest/index.html)があり、そこに[Fraud Detection with Amazon SageMaker FeatureStore](https://github.com/aws/amazon-sagemaker-examples/blob/master/sagemaker-featurestore/sagemaker_featurestore_fraud_detection_python_sdk.ipynb)が追加されている。
 
 また、一般的な「Feature Store」についての参考情報を以下に。
 
