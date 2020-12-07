@@ -30,6 +30,10 @@ projects: []
 
 この投稿は[Podcastな Advent Calendar 2020](https://adventar.org/calendars/5457) 6日目の投稿になります。
 
+PodcastのAdvent Calendarということで、せっかくなので投稿の内容に関して配信もしてみました。
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/PodcastAdvent-Calendar-2020-enf2ul" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 ぼくはPodcastのリスナー（ヘビーではないが）であり、配信も行っています。  
 本投稿では、Podcastを聴いてる理由と、配信している理由をそれぞれ書きます。  
 年末なので（？）ポエムを書いてみます。

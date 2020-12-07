@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#33 Coming Soon"
+title: "#33 re:Invent 2020 week1 気になったところピックアップ + ざっと感想 + week2に向けて"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary: ""
-abstract: ""
+summary: "re:Invent 2020 week1 気になったところピックアップ + ざっと感想 + week2について話したよ。"
+abstract: "re:Invent 2020 week1 気になったところピックアップ + ざっと感想 + week2について話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-12-07T22:39:07+09:00
+date: 2021-12-07T09:52:00+09:00
 #date_end: 2020-12-02T22:39:07+09:00
 all_day: false
 
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/reInvent-2020-week1-----week2-enf2mi" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 
