@@ -154,6 +154,8 @@ Feature Storeは具体的には以下のようなことをやってくれる。
 同様のサービスとしてはGCPの[AutoML Vision](https://cloud.google.com/vision/automl/docs)や  
 AWSだと[Amazon Rekognition Custom Labels](https://aws.amazon.com/jp/rekognition/custom-labels-features/)。  
 
+re:Inventで[Lookout for Vision詳細解説のセッション動画](https://virtual.awsevents.com/media/1_gtj6qsht)もあがっている。
+
 
 ## [Amazon Lookout for Equipment](https://aws.amazon.com/jp/blogs/aws/new-amazon-lookout-for-equipment-analyzes-sensor-data-to-help-detect-equipment-failure/)と[Amazon Monitron](https://aws.amazon.com/jp/monitron/)の違い
 
@@ -187,6 +189,8 @@ AWSだと[Amazon Rekognition Custom Labels](https://aws.amazon.com/jp/rekognitio
   + production: $4,000 + カメラストリームごとに月$8.33
   + develop: $2,499
 * 高いのでプレビュー版申込みはやめといた。
+
+re:Inventで[AWS Panorama詳細解説のセッション動画](https://virtual.awsevents.com/media/1_3uq9clt4)もあがっている。
 
 
 ## [Amazon CodeGuru](https://aws.amazon.com/codeguru/)アップデート
