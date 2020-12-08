@@ -16,7 +16,7 @@ abstract: "re:Invent 2020 week1 気になったところピックアップ + ざ
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-12-07T09:52:00+09:00
+date: 2020-12-07T09:52:00+09:00
 #date_end: 2020-12-02T22:39:07+09:00
 all_day: false
 
