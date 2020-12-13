@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-この投稿は[Podcastな Advent Calendar 2020](https://adventar.org/calendars/5457) 6日目の投稿になります。
+この投稿は[Podcastな Advent Calendar 2020](https://adventar.org/calendars/5457)の6日目になります。
 
 PodcastのAdvent Calendarということで、せっかくなので投稿の内容に関して配信もしてみました。
 
