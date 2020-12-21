@@ -304,3 +304,12 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
 * GCPでもヘルスケアの分析サポートサービス出てたはず
 * 公式ブログ: [Making sense of your health data with Amazon HealthLake](https://aws.amazon.com/jp/blogs/machine-learning/making-sense-of-your-health-data-with-amazon-healthlake/)
 
+
+#### [Amazon SageMaker JumpStart](https://aws.amazon.com/jp/blogs/news/amazon-sagemaker-jumpstart-simplifies-access-to-prebuilt-models-and-machine-learning-models/)
+
+* AWSが事前に用意したモデルのコレクションやMLワークフローをそのまま or カスタマイズして使える。
+* SageMaker Studioから使う。
+  - なんか今年のアップデートは特にStudioを意識したものが多い
+* 単にnotebookが用意されているだけではなく、Cloud Formationで必要なリソースをデプロイしてくれる。
+  - GCPの似たサービスでは[AI Hub](https://cloud.google.com/ai-hub/?hl=ja)というのがある。
+
