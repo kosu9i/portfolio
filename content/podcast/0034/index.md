@@ -225,6 +225,15 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
 * 公式ブログ: [Transforming Your Monolith to SaaS with AWS SaaS Boost](https://aws.amazon.com/jp/blogs/apn/transforming-your-monolith-to-saas-with-aws-saas-boost/)
 
 
+### [Cloud Audit Academy](https://aws.amazon.com/compliance/auditor-learning-path/?nc1=h_ls)
+
+[re:Growth](https://dev.classmethod.jp/news/201218-regrowth-online/)のセキュリティセッションで知った。
+
+* 「Security and Compliance Domains」
+* [Cloud Audit Academy](https://aws.amazon.com/compliance/auditor-learning-path/?nc1=h_ls)のページで言語をEnglishにすると最新の情報になる。
+* [無料の3時間トレーニング（英語）](https://www.aws.training/Details/eLearning?id=41556)がある。良さそう。
+
+
 ### ML Keynote関連
 
 #### [Amazon SageMaker Pipelines](https://aws.amazon.com/jp/sagemaker/pipelines/)
