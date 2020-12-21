@@ -102,6 +102,7 @@ projects: []
   - Youtube Liveで開催された[re:Growth 2020 Online](https://dev.classmethod.jp/news/201218-regrowth-online/)もおすすめ
 * [AWS What's New Feed](https://aws.amazon.com/new/?nc1=h_ls)
 * [AWS News Blog](https://aws.amazon.com/blogs/aws/)
+  - 日本語ブログのre:Inventタグがついた一覧は[こちら](https://aws.amazon.com/jp/blogs/news/category/events/reinvent/)
   - 日本語訳の記事も続々と出ている。
 * その他、AWSの中の人達が独自にReCapやったり、Black Belt公開されていたりするので、関心のある機能をググればなにか引っかかる情報が出ていると思われる。
 
@@ -278,6 +279,7 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
 #### [Amazon SageMaker Edge Manager](https://aws.amazon.com/jp/sagemaker/edge-manager/)
 
 * AWS IoT, GreengrassをMLに持ち込んできたという話だと思う。
+* [AWS Systems Manager Fleet Manager](https://aws.amazon.com/jp/blogs/news/new-aws-systems-manager-fleet-manager/)との関連もあるかも。まとめて要チェック。
 * EdgeのCI/CDを管理
 * EdgeへのMLデプロイを簡単にしてくれたり管理してくれたり
 * いままでもNeoってのがあったが、これはモデルの圧縮・コンパイル
