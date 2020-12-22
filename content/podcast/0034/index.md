@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#34 Coming Soon"
+title: "#35 re:Invent 2020 振り返り"
 event:
 event_url:
 location:
@@ -11,13 +11,13 @@ address:
   region:
   postcode:
   country:
-summary:
-abstract:
+summary: "re:Invent 2020を自分たちなりに振り返ったよ。キャッチアップの量が多すぎて、ざっくりとしか話せなかったよ。詳細はまたの機会に配信とかしたいと思うよ。"
+abstract: "re:Invent 2020を自分たちなりに振り返ったよ。キャッチアップの量が多すぎて、ざっくりとしか話せなかったよ。詳細はまたの機会に配信とかしたいと思うよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-12-21T00:21:38+09:00
-#date_end: 2020-12-21T00:21:38+09:00
+date: 2020-12-22T10:03:00+09:00
+#date_end: 2020-12-22T10:03:00+09:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/reInvent-2020-eo3k7a" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 
@@ -167,7 +169,7 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
     - 監視ツール
 
 
-## 個人的に気になったアップデートなど
+## 個人的に気になったアップデートなど（小杉）
 
 ### マネジメントコンソールのアップデート
 
@@ -313,3 +315,65 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
 * 単にnotebookが用意されているだけではなく、Cloud Formationで必要なリソースをデプロイしてくれる。
   - GCPの似たサービスでは[AI Hub](https://cloud.google.com/ai-hub/?hl=ja)というのがある。
 
+
+## 個人的に気になったアップデートなど（加藤）
+
+### サーバレス関連のアップデート内容
+
+- Lambdaがコンテナイメージに対応
+    - 今までzipでデプロイしていたのが、ECRのurlでデプロイできるイメージ
+    - /tmp以外はRead-Onlyなどの要件あり
+    - CDKにも対応
+- Lambda Extentions
+    - Lambda Extentions APIを使って実装したPGをLambda Layerとしてデプロイ
+    - モニタリングツールなどの外部ツールをLambda実行環境内部に統合
+    - Lambdaの実行ステップ
+
+    ![kato/Untitled.png](kato/Untitled.png)
+
+    - Extentionsが作用できる部分（緑色）
+
+    ![kato/Untitled%201.png](kato/Untitled%201.png)
+
+- Amazon CloudWatch Lambda Insights
+    - Lambdaのパフォーマンスメトリクスとか使える
+- イベントソースにApache KafkaとMQが追加
+    - Apache Kafka：メッセージングサービス
+    - MQ：同じく。
+- AWS Signerを使ってLambdaのコード署名が可能に
+    - コードが変更されてないことの確認
+    - 自分でhashとかとらなくていい
+- Lambdaの課金単位が100msから1msに
+- Lambdaのメモリ上限が10GBに、vCPUの上限が6に拡張
+- Runtime Interface Clients
+
+    > Lambdaのパッケージフォーマットとしてコンテナイメージを利用する場合、コンテナイメージはLambdaのランタイムAPIと連携して動作する必要があります。このランタイムAPIとの連携を容易にするため、AWSからAWS Lambda Runtime Interface Clients (RIC)というツールが提供されます。
+
+    - 【速報】Lambdaのパッケージフォーマットとしてコンテナイメージがサポートされるようになりました！！ #reinvent | [Developers.IO](http://developers.io/) [https://dev.classmethod.jp/articles/lambda-support-oci-container-image/](https://dev.classmethod.jp/articles/lambda-support-oci-container-image/)
+- Runtime Interface Emulator
+
+    > コンテナイメージのサポートに伴い、AWS Lambda Runtime Interface Emulator (RIE)というツールの提供が開始されます。RIEはローカル環境で実行可能な軽量ウェブサーバーで、受け付けたHTTPリクエストをLambdaのイベントデータと同じJSON形式に変換する機能を持ちます。RIEを導入したコンテナイメージをビルドすることで、ローカル環境でも簡単にLambda用コンテナイメージのテストが可能です。
+
+    - 【速報】Lambdaのパッケージフォーマットとしてコンテナイメージがサポートされるようになりました！！ #reinvent | [Developers.IO](http://developers.io/) [https://dev.classmethod.jp/articles/lambda-support-oci-container-image/](https://dev.classmethod.jp/articles/lambda-support-oci-container-image/)
+- SNSのFIFOトピックサポート
+- SQSのFIFOキュー ハイスループットモード（プレビュー）
+
+    ![kato/Untitled%202.png](kato/Untitled%202.png)
+
+- SFのExpressモードの同期呼び出し
+
+    ![kato/Untitled%203.png](kato/Untitled%203.png)
+
+- AWS Amplify Admin UI
+- AWS Proton
+- AWS SaaS Boost
+
+### 参考
+
+- CM re:Growth 2020 Online 〜AWS re:Inventから見えるAWSの未来〜 #cmregrowth - YouTube [https://www.youtube.com/watch?v=9Hx9TyPa9gk&feature=youtu.be](https://www.youtube.com/watch?v=9Hx9TyPa9gk&feature=youtu.be)
+- AWS Lambdaの裏側をなるだけ詳しく解説してみる - Sweet Escape [https://www.keisuke69.net/entry/2020/09/29/131203](https://www.keisuke69.net/entry/2020/09/29/131203)
+
+
+## 告知
+
+近日、podcast名を変更すると思います。
