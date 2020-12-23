@@ -146,7 +146,7 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
 
 * 新機能の発表というよりはAWSのインフラがどう活用されている、どう支えているかなどの話が多かった
   - AWS独自チップの話。Graviton2や機械学習用チップHabana Gaudi, Trainiumなど。
-    - 全然話逸れるけど、[MicrosoftもARMベースの独自チップ作る報道](https://www.bloomberg.com/news/articles/2020-12-18/microsoft-is-designing-its-own-chips-for-servers-surface-pcs)...
+    - 全然話逸れるけど、[MicrosoftもARMベースの独自チップ作る報道](https://www.bloomberg.com/news/articles/2020-12-18/microsoft-is-designing-its-own-chips-for-servers-surface-pcs)...もあってアツい
   {{< figure src="reinvent-infra-keynote-0017.jpg" title="Mac Instanceの中身 引用: https://aws.amazon.com/jp/blogs/aws/reinvent-2020-liveblog-infrastructure-keynote/" numbered="true" lightbox="true" >}}
   - Mac InstanceがラックにMac miniを詰め込んでいる画像が出て話題になった。
   - Nitroの話。
@@ -284,7 +284,7 @@ Keynoteはリアルタイムで更新されていたLiveblogというのが概�
 * [AWS Systems Manager Fleet Manager](https://aws.amazon.com/jp/blogs/news/new-aws-systems-manager-fleet-manager/)との関連もあるかも。まとめて要チェック。
 * EdgeのCI/CDを管理
 * EdgeへのMLデプロイを簡単にしてくれたり管理してくれたり
-* いままでもNeoってのがあったが、これはモデルの圧縮・コンパイル
+* いままでもEdge向けにSageMaker Neoってのがあったが、Neoはモデルの圧縮・コンパイル
 * 公式ブログ: [Amazon SageMaker Edge Manager Simplifies Operating Machine Learning Models on Edge Devices](https://aws.amazon.com/jp/blogs/aws/amazon-sagemaker-edge-manager-simplifies-operating-machine-learning-models-on-edge-devices/)
 * [サンプルnotebook](https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker_edge_manager)もあるけど、Edgeに見立てたEC2をSSMで制御してたりして微妙...
 
