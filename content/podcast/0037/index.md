@@ -67,6 +67,8 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSAuto-Scaling-eorih0" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 # Show Notes
 
 ## AWS Auto ScalingのBlackBelt要約
