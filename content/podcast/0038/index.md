@@ -97,11 +97,11 @@ Elastic社のCEOがAWSにブチギレながらライセンス変更のアナウ�
 
 パブリッククラウドベンダーがOSSにフリーライドしている問題に対する動きは前々から活発化していた。（参考: [「Redis、MongoDB、Kafkaらが相次いで商用サービスを制限するライセンス変更。AWSなどクラウドベンダによる「オープンソースのいいとこ取り」に反発 | Publickey」](https://www.publickey1.jp/blog/19/redismongodbkafkaaws.html)）
 
-SSPLとはMongoDBが2018年に作成したライセンス。
-* サービス提供する際に、サービス提供元が周辺プログラムを含めてソースコードを公開するか、ライセンス料を払うかどちらか選ぶもの。
+SSPLとはMongoDBが2018年に作成したライセンスで
+* サービス提供する際に、サービス提供元が周辺プログラムを含めてソースコードを公開するか、ライセンス料を払うかどちらか選ぶ。
 * 他のソフトウェアに対する制限を設けているという点で[OSDの9条](https://opensource.org/docs/osd#not-restrict-other-software)に反しており、OSSライセンスではないという見方が一般的。
 
-OSSコミュニティとクラウドベンダの間には色々因縁があったけど、Googleは[2019年にOSSベンダーとの戦略的提携を発表](https://www.itmedia.co.jp/news/articles/1904/10/news090.html)していたり。
+OSSコミュニティとクラウドベンダの間には色々因縁があったけど、Googleは[2019年にOSSベンダーとの戦略的提携を発表](https://www.itmedia.co.jp/news/articles/1904/10/news090.html)していたり、AWSも[Grafanaとはパートナーシップを結んで](https://grafana.com/blog/2020/12/15/announcing-amazon-managed-service-for-grafana/)いたり。
 
 今回の件では、AWSは[ElasticsearchとKibanaのライセンス変更前のコードからforkしたOSSを公開することで対応](https://aws.amazon.com/jp/blogs/news/aws-policy-for-elasticsearch-licence-change/)。
 
@@ -110,6 +110,7 @@ OSSコミュニティとクラウドベンダの間には色々因縁があっ�
 参考: [AWS、商用サービス化を制限するライセンス変更に対抗し「Elasticsearch」をフォーク、独自のオープンソース版へ | Publickey](https://www.publickey1.jp/blog/21/awselasticsearch.html)
 
 こじれている...
+
 
 ## 本ネタ
 
