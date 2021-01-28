@@ -40,6 +40,9 @@ Transformが単純なSQLで書けない（もしくは書きづらい）よう�
 
 {{< figure src="ETLandELTRedshift1.png" title="ETL - ELT 引用: https://aws.amazon.com/jp/blogs/news/etl-and-elt-design-patterns-for-lake-house-architecture-using-amazon-redshift-part-1/" numbered="true" lightbox="true" >}}
 
+有名でよくサンプルとして使われる、ファイル内の単語数を単語ごとに集計する[Word Count](https://beam.apache.org/get-started/wordcount-example/)というタスクがある。
+
+
 # GCPにおけるETLの選択肢
 
 欲しい機能・非機能要件によって色んな選択肢がある。
