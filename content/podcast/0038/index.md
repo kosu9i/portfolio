@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#38 Coming Soon..."
+title: "#38 GCPでのETLいろいろ - Dataproc編"
 event:
 event_url:
 location:
@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary: "Coming Soon"
-abstract:
+summary: "小杉が時事ネタ + GCP Dataprocについて話したよ。駆け足でしゃべったから若干聞き苦しいかもごめんですよ。加藤は寝不足で声が暗いよ。"
+abstract: "小杉が時事ネタ + GCP Dataprocについて話したよ。駆け足でしゃべったから若干聞き苦しいかもごめんですよ。加藤は寝不足で声が暗いよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-01-27T20:15:14+09:00
+date: 2021-01-29T10:10:00+09:00
 #date_end: 2021-01-27T20:15:14+09:00
 all_day: false
 
@@ -67,6 +67,7 @@ slides: ""
 projects: []
 ---
 
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPETL---Dataproc-epkdkv" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 

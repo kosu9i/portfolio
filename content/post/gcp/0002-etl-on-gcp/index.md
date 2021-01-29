@@ -59,6 +59,8 @@ AWSとの比較ドキュメントとして[「AWS プロフェッショナルの
 
 GCP上でマネージドにHadoop, Sparkなどの分散コンピューティングを利用できる。
 
+Hadoopとはなんぞや、な場合はこの辺を参照: [分散処理技術「Hadoop」とは | NTT Data](https://oss.nttdata.com/hadoop/hadoop.html#:~:text=Hadoop%E3%81%A8%E3%81%AF%E3%80%81%E5%A4%A7%E8%A6%8F%E6%A8%A1,%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%9F%E3%83%89%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%A7%E3%81%99%E3%80%82)
+
 * オンプレミス上でHadoopを利用する場合、ストレージとコンピューティングリソースの分離がしづらく、HDFSに永続化しておくためにクラスタを常時起動しておかないといけない、という困り事がある。
   - DataprocではGCSにデータを永続化しておくことが推奨されている。
   - GCSでも超高速（1Pbit/s）な内部ネットワーク（Jupiterネットワーク）で接続されている（[2分割帯域](https://postd.cc/how-google-invented-an-amazing-datacenter-network-only-they-could-create/)）ため遅延は少ない。（とはいえローカルSSDよりは低速）
