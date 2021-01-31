@@ -1,10 +1,10 @@
 ---
 # Display name
-title: kosu9i
+title: mukiudo
 
 # Username (this should match the folder name)
 authors:
-- kosu9i
+- mukiudo
 
 # Is this the primary user of the site?
 superuser: true
