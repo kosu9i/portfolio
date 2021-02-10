@@ -142,21 +142,23 @@ Hadoop/Sparkの実行はスタンドアロンなスクリプトとして括り�
 
 ## Dataflow（まだ書き途中）
 
-GCPでのETL本命。
+GCPでのETL本命。  
+フルマネージドなApache BEAM（Batch + strEAM）
 
-* フリマネージドなApache BEAM（Batch + strEAM）
-* バッチとストリーミング両方に同じコードで対応可能
+### Dataflowの特長
 
-### Dataprocとの使い分け
-
-基本的にGoogleはDataflow推しの様子。
-
-* 既存のHadoop, Spark資産を使いまわしたかったらDataproc, それ以外はDataflow 
-* サーバレスではなくクラスタ管理を自分たちで行いたい場合（DevOpsアプローチに慣れている場合）Dataproc, それ以外はDataflow
-
-{{< figure src="dataflow1.png" title="DataprocとDataflow比較表" numbered="true" lightbox="true" >}}
-
-{{< figure src="dataflow2.png" title="DataprocとDataflow使い分けフローチャート" numbered="true" lightbox="true" >}}
+* サーバレスな分散データパイプラインを構築。
+* ジョブ実行中に動的なオートスケーリング
+* 単にワークフローを構築するだけでなく、内部でグラフの最適化が行われる。
+* Apache Beam環境さえ構築できればどこでも動く
+  - 例えばPythonであればpip installで構築可能
+  - SDKの初期化時にDataflowRunnerを指定する（SDK側でGCPがサポートされている）
+* Dataflow TemplatesというGoogleが用意しているテンプレートから始めることもできる。
+  - 独自のテンプレートも作成可能。
+  - 単にサンプルがあるというだけではなく、開発者と実行者を分離できるというメリット（コンパイルの再実行を防いだり）
+* バッチとストリームをどちらも同じプログラミングモデルで処理可能なのが最大の特長
+  - バッチではGCSなど有限な入力
+  - ストリームではPubSubなど無限の入力をウィンドウに区切って処理していく
 
 ### バッチとストリーミング
 
@@ -177,10 +179,63 @@ Dataflowでどちらも同じように処理可能としているのは以下の
 
 {{< figure src="dataflow4.png" title="Dataflowプログラミングモデル概要" numbered="true" lightbox="true" >}}
 
-### Dataflowの特長
+### Dataprocとの使い分け
 
-* 単にワークフローを構築するだけでなく、内部でグラフの最適化が行われる。
-* ジョブ実行中に動的なオートスケーリング
-* Apache Beam環境さえ構築できればどこでも動く
-  - Pythonであればpip installで構築可能
+基本的にGoogleはDataflow推しの様子。
 
+* 既存のHadoop, Spark資産を使いまわしたかったらDataproc, それ以外はDataflow 
+* サーバレスではなくクラスタ管理を自分たちで行いたい場合（DevOpsアプローチに慣れている場合）Dataproc, それ以外はDataflow
+
+{{< figure src="dataflow1.png" title="DataprocとDataflow比較表" numbered="true" lightbox="true" >}}
+
+{{< figure src="dataflow2.png" title="DataprocとDataflow使い分けフローチャート" numbered="true" lightbox="true" >}}
+
+### 補足
+
+* GroupByKeyは非効率なのでCombineの使用を検討する。
+* MapReduceとのプログラミングモデルの違い
+  - MapはPCollection, PTransformに相当
+  - ReduceはCombine
+
+
+### ストリーミングデータについて
+
+#### 難しさ
+
+* データの量が変動するため、マシンリソースの柔軟なスケーリングが求められる
+* 遅延データがある。正確性と応答速度がトレードオフ
+  - 正確性を重視し遅延データを待ちすぎると、速度が下がる
+  - リアルタイム性を重視し遅延データを破棄すると、正確性が下がる
+
+### Beamにおけるストリーミングに対応するためのウィンドウ
+
+* Fixed-time Window
+  - 固定長のウィンドウ
+  - レイテンシが存在しない理想の状況があるとしたら、固定長のウィンドウで始端から終端までカバーできる。
+  - 例: 1時間ごとのWebサイト訪問数集計
+* Sliding-time Window
+  - 固定長のウィンドウをn分おきに開始する。
+  - 例: 10分毎に1時間幅のWebサイト訪問数の移動平均を計算
+* Session Window
+  - 特定のキーに基づき集約
+  - 最小ギャップ時間を過ぎて到着したデータは別ウィンドウで処理
+  - 例: Webサイトへの訪問をユーザ単位にトラッキング
+
+現実にはレイテンシがある。これにはWatermarkと集計のトリガを定義することで対応する。
+  - After Watermark
+  - After Processing Time
+  - After Count
+
+# 総括
+
+* データエンジニアリングの大きめな1要素としてETLがある。
+  - ETL, ELT, ELは要件によって使い分ける。
+* ETLは並列処理や柔軟なスケールイン・アウトが求められることが多い。
+  - ゆえにクラウドとの相性良し
+* GCPにおけるETLではDataproc, Dataflow, Data Fusionあたりが代表格。  
+  Dataflowはオススメで、ざっくりだと以下のように使い分ける。
+  - Hadoop関連を使いたかったらDataproc
+  - GUIを使いたかったらData Fusion
+  - それ以外はDataflow
+* 特にストリーミング処理が求められるならDataflow超おすすめ。
+  - Cloud Pub/Subと組み合わせるなど
