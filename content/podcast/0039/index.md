@@ -11,12 +11,12 @@ address:
   region:
   postcode:
   country:
-summary: "Coming Soon"
-abstract:
+summary: "小杉が時事ネタ + GCP Dataflowなどについて話したよ。"
+abstract: "小杉が時事ネタ + GCP Dataflowなどについて話したよ。"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-02-10T23:53:58+09:00
+date: 2021-02-11T10:20:00+09:00
 #date_end: 2021-02-10T23:53:58+09:00
 all_day: false
 
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/GCPETL---Dataflow-eq861c" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 

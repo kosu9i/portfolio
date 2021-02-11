@@ -140,7 +140,7 @@ Hadoop/Sparkの実行はスタンドアロンなスクリプトとして括り�
 手軽に試せるしexportもできるので資産管理もある程度可能、スケールもある程度やってくれる。ローコードでETLを実践したいときに便利。
 
 
-## Dataflow（まだ書き途中）
+## Dataflow
 
 GCPでのETL本命。  
 フルマネージドなApache BEAM（Batch + strEAM）
