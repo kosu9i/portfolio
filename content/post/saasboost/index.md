@@ -41,6 +41,37 @@ SaaS Boost発表時の参考としてはこちら: [［速報］AWS、SaaS構築
 # SaaS Boost概要
 
 * [プレビュー版申し込みページ](https://aws.amazon.com/jp/partners/saas-boost/)から申請可能
+* 参考となるリンク
+  - [AWS SaaS Boost を利用したモノリスアプリケーションの SaaS 移行](https://aws.amazon.com/jp/blogs/news/transforming-your-monolith-to-saas-with-aws-saas-boost/)
+  - [AWS SaaS Factory プログラム](https://aws.amazon.com/jp/partners/saas-factory/)
+    - ほとんど英語で動画も字幕なし...
+  - [AWS SaaS Portal](https://aws.amazon.com/jp/partners/isv-saas-portal/)
+    - 日本語コンテンツなので、ここから入ると良さそう。
+    - [オンラインセミナー集](https://pages.awscloud.com/event_JAPAN_saas-dojo_ondemand-Confirmation-Page.html)
+
+
+# そもそもSaaS運用の話
+
+そもそもSaaSの特徴、運用方法として難しいことやその解決策など、AWSのSAが公開しているInnovateでのスライドがあった。  
+参考: [事業のステージに応じたSaaSの悩みと解決案](https://d1.awsstatic.com/events/jp/2020/innovate/pdf/S-23_AWSInnovate_Online_Conference_2020_Spring_SaaS.pdf)
+
+* パッケージ販売と比較して考える。
+  - 導入時のコストを抑えられるが、安定運用がとても大事で下手するとここでコケる。
+  - パッケージは導入時にユーザ個別に環境構築や導入コストがかかる。
+* SaaS化のフェーズを踏んでいくと良い。
+  - クラウドリフト
+    - リフト&シフトするだけ。微妙。
+  - シングルテナント（サイロ化モデル）
+    - アプリケーションをWeb化する必要あり。
+    - 顧客ごとに個別のインフラ(AWSならアカウント単位、インスタンス単位とか)を用意。そのため運用コストは大きい。
+  - 一部をマルチテナント化（データ層を共通化）
+    - データストアを共通化（プール化）したうえで、キーにテナントIDを付与することで分離
+    - ユーザが増えることによる全体的なパフォーマンス劣化が生じるかも（特定ユーザによる過負荷に引きずられるなど）
+  - すべてマルチテナント化（アプリ/データ層を共通化）
+    - すべてをプール化するのではなく、特定顧客や負荷が大きい処理・ストレージ層をサイロ化して他ユーザの影響を受けないようにするアーキテクチャを目指す。
+  - クラウド最適化（コンテナ化、サーバレス化）
+    - スピードレイヤとバッチレイヤを分離など
+
 
 
 # 利用手順
