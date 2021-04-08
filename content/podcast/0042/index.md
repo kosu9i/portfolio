@@ -197,7 +197,7 @@ AWSの各種サービスと連携しやすいCIツールという感じ。
 * 色々項目はあるけど必須は `version` と `phases` だけ
   - versionは0.1 or 0.2なので基本的には0.2にしとけばOK
   - phasesに具体的なビルド作業を書いていく。
-* `phases` には `install` => `pre_build` => `build` => `post_build` の純で書いていく
+* `phases` には `install` => `pre_build` => `build` => `post_build` の順で書いていく
   - `install`: ビルドに必要なものをinstallしていく。`runtime-versions` てのを指定するとあらかじめ提供されているランタイム一式（java, python, androidとか）が構築される
   - `pre_build`: ビルド前に必要な処理。dockerレジストリへのログインとか、npmの依存関係をインストールとか。
   - `build`: ビルド作業そのものを記述。
