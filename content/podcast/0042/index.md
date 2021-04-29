@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "#42 AWSでのCI/CD Codeなんちゃら系のサービスまとめ"
+title: "#42 AWSでのCI/CD Codeなんちゃら系のサービスまとめ [前編]"
 event:
 event_url:
 location:
