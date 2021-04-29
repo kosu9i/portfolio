@@ -83,7 +83,7 @@ AWS上でCI/CDを行うサービスを整理。後編。
 
 {{< figure src="codedeploy.png" title="CodeDeploy 引用: https://docs.aws.amazon.com/ja_jp/codedeploy/latest/userguide/welcome.html" numbered="true" lightbox="true" >}}
 
-AWSにおけるCDの肝となるサービス。
+AWSにおけるCDの肝（とは言えないかも。対応サービスが限られるので限定的）となるサービス。
 
 * フルマネージドなデプロイ自動化サービス
 * デプロイ先としてEC2, オンプレミス, Lambda, ECSを選択可能
