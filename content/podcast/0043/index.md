@@ -67,7 +67,7 @@ slides: ""
 projects: []
 ---
 
-Coming Soon...
+<iframe src="https://anchor.fm/mukiudo/embed/episodes/AWSCICD-Code-evuq1e" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 # Show Notes
 
